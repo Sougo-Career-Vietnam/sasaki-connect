@@ -55,20 +55,21 @@ footer
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     //color: $bgAccentTextColor;
-    color: $black;
-    background: $pageTopBgColor;
-    border: 1px solid $black;
+    color: white;
+    background: #E73128;
+    // border: 1px solid $black;
     transition: all 0.3s ease;
+    text-align: center;
     @include xs {
       width: 40px;
       height: 40px;
     }
 
     i {
-      color: $black;
+      color: white;
       transition: all 0.3s ease;
     }
 
@@ -111,9 +112,9 @@ footer
 
     @include minWidthXs {
       &:hover {
-        background: $black;
+        background: #FDEAE9;
         i,span {
-          color: $white;
+          color: #E73128;
         }
         //&::before {
         //  opacity: .5;
@@ -205,7 +206,7 @@ footer
     position: relative;
     &::after {
         position: absolute;
-        content: "採用サイト";
+        content: "";
         color: $footerTextColor;
         padding-left: 0.5rem;
         @include minWidthXs {

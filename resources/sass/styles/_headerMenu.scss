@@ -89,7 +89,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       }
     }
     &::after {
-      content: "採用サイト";
+      content: "";
       font-size: rem(18);
       font-weight: 700;
       display: inline-block;
@@ -111,7 +111,8 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     display: block;
     flex: 0 1 auto;
     margin-left: auto;
-    padding-left: 1em;
+    // padding-left: 1em;
+   
     &.modalOn {
       top: 0 !important;
     }
@@ -151,8 +152,9 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     flex: 0 1 140px;
     width: 100%;
     margin: 0;
-    //padding: 12px;
-    padding-top: 24px;
+    background: #2C4198;
+    color: white;
+    padding: 0px 20px 0px 40px;
     //border-bottom: solid 1px $spHeaderMenuBorderColor;
 
     a {
@@ -434,8 +436,9 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       flex: 0 1 auto;
       width: auto;
       height: $defMenuHeightPc;
-      margin-right: 40px; // アンダーライン入れたい場合にメニューごとの間に余白を追加する
+      margin-right: 0px; // アンダーライン入れたい場合にメニューごとの間に余白を追加する
       padding: 0;
+      padding: 0px 20px 0px 40px;
       border: none;
 
       [class*="letter"] {

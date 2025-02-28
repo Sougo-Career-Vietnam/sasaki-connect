@@ -5,3 +5,21 @@
 @import "resources/sass/styles/footer"; //フッターーメニュー
 @import "resources/sass/styles/maintenance"; //メンテナンス表示画面
 @import "resources/sass/styles/favoriteBtn"; //「お気に入り」ボタン
+
+
+
+.applyBtns .add-back {
+    font-size: 1.15rem;
+    display: block;
+    float: left;
+    background-color: #DDDDDD;
+    color: #2F2F2F;
+    width: 170px;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+    transition: all 0.3s;
+    cursor: pointer;
+}

@@ -37,7 +37,8 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
             <a href="#" class="pageTopAnchor">
 {{--                <i class="fas fa-arrow-up"></i>--}}
                 <i class="fas fa-chevron-up"></i>
-                <span>TOP</span>
+                <span>PAGE<br>
+                    TOP</span>
             </a>
         </div><!-- #pageTop -->
         <div id="searchJobsBtn" class="SPdisp">

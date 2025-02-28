@@ -36,7 +36,7 @@
   .en,
   .ja {
     display: block;
-    color: $bgBaseTextColor;
+    color: white;
     line-height: 1;
   }
 
@@ -45,18 +45,19 @@
     font-weight: 600;
     font-style: normal;
     letter-spacing: 0.05em;
-    font-size: rem(16);
+    font-size: rem(13);
     @include minWidthXs {
-      font-size: rem(24);
+      font-size: rem(16);
     }
   }
 
   .ja {
-    display: none;
-    font-size: rem(12);
+    display: block;
+    font-size: rem(16);
     font-weight: 500;
+    margin-bottom: 5px;
     @include minWidthXs {
-      font-size: rem(14);
+      font-size: rem(13);
     }
   }
 }
@@ -80,7 +81,7 @@
   }
 
   a {
-    color: $bgBaseTextColor;
+    color: white;
     transition: opacity .3s;
     @include minWidthXs {
       &:hover {
@@ -101,12 +102,13 @@
 }
 
 .latestJobMoreButton {
+  border: 2px solid;
   display: block;
   width: 70px;
   //padding: 6px 4px;
   padding: 0 4px;
   //border: solid 1px $latestJobMoreButtonBgColor;
-  color: $bgBaseTextColor;
+  color: white;
   font-family: "futura-pt", sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -131,7 +133,7 @@
     }
   }
   @include minWidthXs {
-    width: 90px;
+    width: 75px;
     border-width: 2px;
   }
   @include xs {
@@ -143,7 +145,7 @@
   .buttonText {
     font-size: rem(13);
     &::after {
-      content: '\f061';
+      content: '';
       display: inline-block;
       position: relative;
       top: -2px;
@@ -185,7 +187,7 @@
             overflow: hidden;
             height: auto;
             font-weight: 600;
-            color: $baseColor;
+            color: white;
             @include xs {
                 font-size: 1.3rem;
             }

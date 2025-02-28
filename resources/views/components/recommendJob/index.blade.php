@@ -11,10 +11,19 @@
             </div>
 
             <button type="button" class="recommendJobButtonPrev">
-                <i class="fas fa-angle-left"></i>
+                {{-- <i class="fas fa-angle-left"></i> --}}
+             
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" viewBox="0 0 16 30" fill="none">
+                        <path d="M2 28L14 16L2 4" stroke="#2C4198" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
             </button>
             <button type="button" class="recommendJobButtonNext">
-                <i class="fas fa-angle-right"></i>
+                {{-- <i class="fas fa-angle-right"></i> --}}
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" viewBox="0 0 16 30" fill="none">
+                    <path d="M14 28L2 16L14 4" stroke="#2C4198" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
             </button>
         </div>
     </div>

@@ -20,9 +20,11 @@ nav { //pagerのNav
     }
     em {
       font-size: $fontSizeXxLarge;
-      color: $searchTextColor;
+      // color: $searchTextColor;
       margin: 0 5px 0 0;
       line-height: $lineHeightLowBase;
+      font-style: normal;
+      color: #2C4198;
     }
   }
   .new_pagenation { //ページネーション数字部分
@@ -46,9 +48,9 @@ nav { //pagerのNav
       li { //ページャー数字Indスタイル
         @extend %pagerNumberBase; //数字スタイル共通
         &.first {
-          border-left: 1px solid #D9D9D9;
+          // border-left: 1px solid #D9D9D9;
           span {
-            background: none repeat scroll 0 0 $searchTextColor;
+            background: #2C4198;
             width: 100%;
             color: $bgMainTextColor;
             display: block;

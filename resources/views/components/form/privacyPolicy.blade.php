@@ -96,6 +96,6 @@ $mode = 'apply';
     @endif
 
     </div>
-
+    <button class="add-back" type="submit" value="" disabled>戻る</button>
     <button class="confirmApply locked" type="submit" value="" disabled>内容を確認する</button>
 </aside>

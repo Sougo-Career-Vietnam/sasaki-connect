@@ -157,13 +157,13 @@
                                     <aside class="applyBtns">
                                         <a class="goApply" href="{{Route('top')}}/apply/{{$fEntJobDetail->jobId}}">
                                             @lang('textlist.webApply')
-                                            <i class="fas fa-chevron-right"></i>
+                                            {{-- <i class="fas fa-chevron-right"></i> --}}
                                         </a>
 
                                         @if($applyTelNumber && mb_strlen($applyTelNumber) > 0)
                                         <a class="goApply telDialog" href="#" data-modaltarget="teldal" onclick="gtag('event', 'click', {'event_category': 'links','event_label': 'tel-tap-{{$fEntJobDetail->jobId}}-pc'});">
                                             @lang('textlist.telApply')
-                                            <i class="fas fa-chevron-right"></i>
+                                            {{-- <i class="fas fa-chevron-right"></i> --}}
                                         </a>
                                         @endif
 
@@ -310,13 +310,13 @@
                                     <aside class="applyBtns">
                                         <a class="goApply" href="{{Route('top')}}/apply/{{$fEntJobDetail->jobId}}">
                                             @lang('textlist.webApply')
-                                            <i class="fas fa-chevron-right"></i>
+                                            {{-- <i class="fas fa-chevron-right"></i> --}}
                                         </a>
 
                                         @if($applyTelNumber && mb_strlen($applyTelNumber) > 0)
                                         <a class="goApply telDialog" href="#" data-modaltarget="teldal" onclick="gtag('event', 'click', {'event_category': 'links','event_label': 'tel-tap-{{$fEntJobDetail->jobId}}-pc'});">
                                             @lang('textlist.telApply')
-                                            <i class="fas fa-chevron-right"></i>
+                                            {{-- <i class="fas fa-chevron-right"></i> --}}
                                         </a>
                                         @endif
 
