@@ -154,8 +154,37 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     margin: 0;
     background: #2C4198;
     color: white;
-    padding: 0px 20px 0px 40px;
+    padding: 0px 40px 0px 78px;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
     //border-bottom: solid 1px $spHeaderMenuBorderColor;
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(/public/images/common/icon_serch_tb.svg);
+      width: 30px;
+      height: 30px;
+      top: 25px;
+      left: 43px;
+      transform: scale(1);
+      @media print, screen and (max-width: 767px){
+          display: none;
+      }
+    }
+    &:hover {
+      background: #E8F3F9;
+      color: #2C4198;
+      // border: 1px solid !important;
+      &::after {
+        background-image: url(/public/images/common/icon_serch_hover.svg);
+        top: 25px;
+        left: 43px;
+        width: 30px;
+        height: 30px;
+      }
+     }
+
 
     a {
       transition: opacity .3s;
@@ -438,7 +467,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       height: $defMenuHeightPc;
       margin-right: 0px; // アンダーライン入れたい場合にメニューごとの間に余白を追加する
       padding: 0;
-      padding: 0px 20px 0px 40px;
+      padding: 0px 40px 0px 78px;
       border: none;
 
       [class*="letter"] {

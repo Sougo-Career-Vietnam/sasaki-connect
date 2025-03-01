@@ -342,8 +342,8 @@ footer
   }
 
   .copyright {
+    text-align: center;
     @include minWidthXs {
-      text-align: left;
       width: 100%;
       position: absolute;
       bottom: 0;
