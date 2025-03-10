@@ -58,6 +58,12 @@ jQuery(function ($) {
 
 
 
+    $("#recruit  .heading-toggle").click(function () {
+        console.log ('dfsafasfds')
+        $(this).next().slideToggle();
+        $(this).toggleClass("open");
+    }) 
+
 
 
     if (isSp) {

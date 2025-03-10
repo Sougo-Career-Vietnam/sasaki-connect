@@ -48,13 +48,17 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     flex: 0 1 auto;
     margin-left: 10px;
     transition: all 0.3s ease;
-
+    padding:0px 20px 0px 12px;
     img {
+      width: 335px;
       max-width: 100%;
       height: auto;
       transition: opacity .3s;
       text-align: center;
       vertical-align: middle;
+      @include xs {
+        width: 170px;
+      }
     }
 
     a {
@@ -101,6 +105,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       }
     }
     @include minWidthXs {
+      padding: 0px 20px 0px 95px;
       &:hover {
         opacity: 0.7;
       }
