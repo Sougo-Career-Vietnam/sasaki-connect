@@ -515,7 +515,7 @@
                                         <a class="link-search02">求人情報はこちらから</a>
                                     </li>
                                  
-                                    <li class="item-recruit">
+                                    <li class="item-recruit two">
                                         <dl class="dl-recruit">
                                             <dt class="dt-recruit">まずはお話し・ご登録から<br>派遣ご登録も正社員の面接も</dt>
                                             <dd class="dd-recruit">ご登録・ご面談</dd>

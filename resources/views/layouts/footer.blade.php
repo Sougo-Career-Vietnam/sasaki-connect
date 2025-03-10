@@ -83,11 +83,12 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                         $footerTel = $frontendSettings['footer']['corpInfo']['tel'] ?? $corporations[0]['tel'] ?? '';
                         $footerFax = $frontendSettings['footer']['corpInfo']['fax'] ?? $corporations[0]['fax'] ?? '';
                     @endphp
+                      <p class="title-add">株式会社SASAKI CONNECT</p>
                     @if($footerZipCode)
                         <p>{{$footerZipCode}}</p>
                     @endif
                     @if($footerAddress)
-                        <p>{!! nl2br(e($footerAddress)) !!}</p>
+                        <p class="add-address">{!! nl2br(e($footerAddress)) !!}</p>
                     @endif
                     @if($footerTel)
                         <p>TEL：{{$footerTel}}</p>

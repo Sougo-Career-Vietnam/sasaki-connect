@@ -278,6 +278,7 @@ picture img {
   #recruit .text-main .text-04 {
       font-size: clamp(16px, 3vw, 60px);
       margin-bottom: clamp(16px, 4vw, 33px);
+      margin-left: -5px;
   }
   #recruit .text-main .text-01 {
       font-size: clamp(16px, 2vw, 40px);
@@ -294,7 +295,9 @@ picture img {
       font-weight: 700;
   }
   #recruit .text-main .text-03 {
-      font-size: clamp(16px, 3vw, 60px);
+    font-size: clamp(16px, 3vw, 60px);
+    margin-bottom: -18px;
+    margin-left: -2px;
   }
   #recruit .text-main .big.two {
     font-size: clamp(16px, 3.5vw, 80px);
@@ -407,7 +410,7 @@ picture img {
   font-size: clamp(16px, 1.7vw, 24px);
   color: #2C4198;
   font-weight: 700;
-  margin-bottom: 19px;
+  margin-bottom: 22px;
   position: relative;
 }
 #recruit .box-career .list-point .item-point::after {
@@ -1041,7 +1044,7 @@ margin-bottom: 0px;
 
 #recruit .content-main .box-question .heading-toggle {
   position: relative;
-  padding: 25px 20px 30px 105px;
+  padding: 25px 20px 33px 105px;
   background: #E8F3F9;
   font-size: 24px;
   color: #2C4198;
@@ -1324,7 +1327,7 @@ margin-bottom: 0px;
 }
 
 
-@media (max-width: 1160px) {
+/* @media (max-width: 1160px) {
   #recruit .text-main .item-title {
       font-size: clamp(14px, 1.75vw, 30px);
       width: calc(100% / 3 - 4px);
@@ -1386,7 +1389,7 @@ margin-bottom: 0px;
   }
 
 
-}
+} */
 
 
 #recruit .sp-br {
@@ -2073,34 +2076,40 @@ margin-bottom: 0px;
       line-height: 22px;
   }
   #recruit .list-recruit .dt-recruit {
-      font-size: 16px;
-      line-height: 28px;
-      margin-bottom: 13px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
   }
 
   #recruit .list-recruit .dd-recruit {
-      font-size: 24px;
-      color: #2C4198;
-      font-weight: 700;
+    font-size: 20px;
+    color: #2C4198;
+    font-weight: 700;
+    margin-bottom: -5px;
   }
   #recruit .list-recruit .dl-recruit {
       margin-bottom: 20px;
   }
 
   #recruit .list-recruit .item-recruit {
-      padding: 20px 15px 20px 15px;
-      margin-bottom: 35px;
+    padding: 12px 15px 20px 15px;
+    margin-bottom: 25px;
+  }
+  #recruit .list-recruit .item-recruit.tw0 {
+    padding: 20px 15px 20px 15px;
+    margin-bottom: 25px;
   }
   #recruit .list-recruit .link-search02 {
-      border-radius: 40px;
-      padding: 13px 0px 13px 37px;
-      font-size: clamp(16px, 1.75vw, 30px);
-      max-width: 250px;
+    border-radius: 40px;
+    padding: 9px 0px 9px 30px;
+    max-width: 210px;
+    font-size: 14px;
+    letter-spacing: 1px;
   }
   #recruit .list-recruit .link-entry02 {
-      border-radius: 40px;
-      padding: 13px 0px 13px 65px;
-      max-width: 250px;
+    border-radius: 50px;
+    padding: 9px 0px 9px 50px;
+    max-width: 210px;
   }
   #recruit .box-question .box-title::after {
       display: none;
@@ -2145,15 +2154,39 @@ margin-bottom: 0px;
   }
 
   #recruit .list-recruit .link-search02::after {
-      left: 31px;
-      top: 13px;
-      transform: scale(0.7);
+    left: 19px;
+    top: 7px;
+      transform: scale(0.5);
   }
   #recruit .list-recruit .link-entry02::after {
-      left: 29px;
-      top: 8px;
-      transform: scale(0.7);
+    left: 19px;
+    top: 6px;
+    transform: scale(0.5);
   }
+
+  #recruit .box-recruit .box-title {
+    padding-top: clamp(16px, 7vw, 115px);
+    padding-bottom: clamp(16px, 5.5vw, 55px);
+    margin-bottom: 10px;
+  }
+  #recruit .box-recruit .box-title .title-page {
+    line-height: clamp(16px, 5vw, 85px);
+    margin-bottom: 10px;
+  }
+
+  #recruit .box-recruit {
+    background-image: url(../images/lp/recruit_pic_19_sp.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 99;
+    padding-bottom: clamp(16px, 6vw, 114px);
+  }
+
+  #recruit .box-title .title-page.nine::before {
+    left: 6.5%;
+    top: -2px;
+  }
+
 
 
 

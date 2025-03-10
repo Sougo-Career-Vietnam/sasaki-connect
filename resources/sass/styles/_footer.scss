@@ -36,8 +36,8 @@ footer
   .pageTop {
     display: none;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 32px;
+    bottom: 130px;
     width: 40px;
     height: 40px;
     z-index: 9998;
@@ -64,8 +64,8 @@ footer
     transition: all 0.3s ease;
     text-align: center;
     @include xs {
-      width: 40px;
-      height: 40px;
+      width: 60px;
+      height: 60px;
     }
 
     i {
@@ -176,11 +176,13 @@ footer
     width: calc(100% - 24px);
     max-width: $contentWidth;
     margin: 0 auto;
+    padding-top: 20px;
     @include minWidthXs {
       flex-direction: row;
       align-items: baseline;
       justify-content: space-between;
-      padding-bottom: 70px;
+      padding-bottom: 143px;
+      padding-top: 45px;
     }
   }
 
@@ -198,33 +200,67 @@ footer
           vertical-align: middle;
           line-height: 1;
           object-fit: contain;
+          width: 310px;
+          @include xs {
+            width: 155px;
+        }
       }
   }
 
   .footerTitle {
-    margin-bottom: 1rem;
+    margin-bottom: 35px;
     position: relative;
+    @include xs {
+      margin-bottom: 10px;
+  }
+
     &::after {
         position: absolute;
         content: "";
         color: $footerTextColor;
         padding-left: 0.5rem;
         @include minWidthXs {
-            font-size: rem(16);
+            font-size: rem(20);
         }
         @include xs {
             font-size: rem(15);
+            margin-bottom: 20px;
         }
     }
+
   }
 
   .footerAddress{
     font-size: rem(14);
     line-height: 1.78;
+    @include xs {
+      font-size:13px;
+     }
+    .title-add {
+      font-size: 20px;
+      margin-bottom: 30px;
+      @include xs {
+        font-size:14px;
+        margin-bottom: 2px;
+    }
+    }
+    .add-address {
+      margin-bottom: 20px;
+      @include xs {
+         margin-bottom: 75px;
+      }
+    }
     @include minWidthXs{
-      font-size: rem(16);
+      font-size: rem(18);
       font-weight: 400;
       line-height: 1.5;
+      .title-add {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .add-address {
+        margin-bottom:40px;
+      }
     }
   }
 
@@ -251,8 +287,10 @@ footer
 
   .footerRemoteNav,
   .copyright {
+
     min-height: 0;
     @include minWidthXs {
+      font-size: 16px;
     }
   }
 
@@ -264,7 +302,7 @@ footer
     }
 
     .letter {
-        font-size: rem(14);
+        font-size: rem(16);
         line-height: 1.5;
         font-weight: 500;
         &::after {
@@ -280,8 +318,8 @@ footer
     grid-auto-flow: column;
 
     @include minWidthXs {
-      margin-top: 30px;
-      grid-template-columns: 140px 160px;
+      margin-top: 22px;
+      grid-template-columns: 140px 208px;
       grid-template-rows: repeat(4, 1fr);
     }
 
@@ -363,7 +401,7 @@ footer
       font-size: rem(12);
       line-height: 1.5;
       @include minWidthXs{
-        font-size: rem(14);
+        font-size: rem(16);
       }
     }
   }
