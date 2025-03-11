@@ -91,7 +91,7 @@ if(isset($frontendSettings['footer']['corpInfo']['type']) || isset($frontendSett
                         <p class="add-address">{!! nl2br(e($footerAddress)) !!}</p>
                     @endif
                     @if($footerTel)
-                        <p>TEL：{{$footerTel}}</p>
+                        <p class="add-tel">TEL：{{$footerTel}}</p>
                     @endif
                     @if($footerFax)
                         <p>FAX：{{$footerFax}}</p>

@@ -57,7 +57,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       text-align: center;
       vertical-align: middle;
       @include xs {
-        width: 170px;
+        width: 155px;
       }
     }
 
@@ -138,6 +138,11 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
+
+    @include xs{
+      height: 100%;
+      background: #EBF0F9;
+    }
   }
 
   .navItemFlex {
@@ -164,6 +169,12 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     transition: 0.5s;
     cursor: pointer;
     //border-bottom: solid 1px $spHeaderMenuBorderColor;
+    @include xs{
+      padding: 0px 40px 0px 40px;
+      background: #EBF0F9;
+      margin: 20px 0px;
+      color: #2F2F2F;
+    }
     &::after {
       content: "";
       position: absolute;
@@ -414,7 +425,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       display: flex;
       .navItem{
         border: none;
-        padding: 0 0 0 12px;
+        padding: 0 0 0 0px;
       }
       .navItemFavorite{
         .letterBottom{
@@ -597,6 +608,9 @@ hamburger
   transform: translateX(-50%);
   color: $white;
   font-size: rem(14);
+  @include xs {
+    font-size: rem(20);
+  }
 }
 
 .hamburger-inner {
@@ -630,7 +644,7 @@ hamburger
 }
 
 .hamburger-inner::after {
-  display: none;
+  display: block;
   bottom: -10px;
 }
 

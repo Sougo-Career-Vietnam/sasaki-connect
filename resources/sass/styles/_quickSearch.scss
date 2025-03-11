@@ -39,10 +39,10 @@ searchQuick　クイックサーチ
     color: $searchQuickBoxHeadColor;
     line-height: 1.4;
     @include xs {
-      display: none;
+      display: block;
       background: transparent;
       padding: 10px;
-      font-size: rem(18);
+      font-size: rem(16);
       width: 100%;
     }
   }

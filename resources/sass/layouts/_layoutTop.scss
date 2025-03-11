@@ -82,6 +82,7 @@
   #topRecommendJob { //linkBox　aboutセクション
     grid-area: topRecommendJob;
     min-width: 825px; //PC時の最小幅設定
+    background: #EBF0F9;
     @include xs { //sp時最小幅を解放
       min-width: 100%;
     }

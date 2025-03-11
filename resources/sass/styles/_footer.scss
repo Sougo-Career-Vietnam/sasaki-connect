@@ -247,9 +247,18 @@ footer
     .add-address {
       margin-bottom: 20px;
       @include xs {
-         margin-bottom: 75px;
+         margin-bottom: 30px;
       }
     }
+    .add-tel {
+      @include xs {
+        position: relative;
+        z-index: 99;
+        margin-bottom: 45px;
+     }
+    }
+
+
     @include minWidthXs{
       font-size: rem(18);
       font-weight: 400;

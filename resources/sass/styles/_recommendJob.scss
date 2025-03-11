@@ -17,7 +17,7 @@
     height: calc(100% - 64px);
     bottom: 0;
     left: 0;
-    background-color: #F4FAFE;
+    background-color: #EBF0F9;
     z-index: -1;
     @include minWidthXs{
       //height: calc(100% - 83px);
@@ -28,9 +28,11 @@
 
 .recommendJobInner {
   width: calc(100% - 24px);
+  padding-top: 20px;
   margin: 0 auto;
   @include minWidthXs {
     width: calc(100% - 48px);
+    padding-top: 80px;
   }
 }
 
@@ -40,7 +42,7 @@
   padding-top: 15px;
   text-align: center;
   @include minWidthXs {
-    margin-bottom: 50px;
+    margin-bottom: 73px;
   }
   .en,
   .ja {
@@ -55,18 +57,21 @@
     font-style: normal;
     letter-spacing: 0.02em;
     margin-bottom: 5px;
-    font-size: rem(38);
+    color: #2C4198;
+    font-size: rem(14);
     @include minWidthXs {
-      font-size: rem(54);
+      font-size: rem(20);
       margin-bottom: 24px;
     }
   }
   .ja {
-    font-size: rem(15);
-    font-weight: 700;
+    font-size: rem(20);
+    font-weight: 500;
     letter-spacing: 0.02em;
+    margin-bottom: 10px;
     @include minWidthXs {
-      font-size: rem(22);
+      font-size: rem(32);
+      margin-bottom: 20px;
     }
   }
 }

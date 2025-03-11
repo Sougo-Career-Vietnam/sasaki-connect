@@ -1,8 +1,8 @@
 <section id="recommendJob" class="recommendJob">
     <div class="recommendJobInner">
         <h2 class="recommendJobTitle">
-            <span class="en">NEW JOBS</span>
             <span class="ja">新着の求人情報</span>
+            <span class="en">NEW JOBS</span>
         </h2>
         <div class="recommendJobBox">
 

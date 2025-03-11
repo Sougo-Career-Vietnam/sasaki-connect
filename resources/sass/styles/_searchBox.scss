@@ -26,10 +26,10 @@
     width: calc(100% - 24px);
     max-width: $contentWidth;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 65px 0 55px;
     text-align: center;
     @include xs {
-      padding: 25px 0;
+      padding: 48px 0 20px;
     }
     .en,
     .ja {
@@ -46,15 +46,16 @@
       margin-bottom: 10px;
       font-size: rem(16);
       @include xs {
-        font-size: rem(13);
+        font-size: rem(18);
       }
     }
     .ja {
       font-size: rem(32);
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       font-weight: 500;
       @include xs {
         font-size: rem(20);
+        margin-bottom: 17px;
       }
     }
   }

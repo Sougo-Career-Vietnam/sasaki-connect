@@ -10,7 +10,11 @@
     padding: 35px 0;
   }
 }
-
+// .latestJobSwiper {
+//   @include xs {
+//     height: 65px !important;
+//   }
+// }
 .latestJobInner {
   display: flex;
   flex-wrap: wrap;
@@ -21,13 +25,16 @@
   margin: 0 auto;
   @include xs {
     position: relative;
-    width: 100%;
+    width: 80%;
+    justify-content: flex-start;
+    margin-left: 0px;
+    height: 120px;
   }
 }
 
 .latestJobTitle {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 21px;
   @include minWidthXs {
     width: 120px;
     margin-bottom: 0;
@@ -53,7 +60,7 @@
 
   .ja {
     display: block;
-    font-size: rem(16);
+    font-size: rem(13);
     font-weight: 500;
     margin-bottom: 5px;
     @include minWidthXs {
@@ -94,12 +101,22 @@
 .latestJobDate {
   display: block;
   width: 100%;
+  margin-bottom: -13px;
   @include minWidthXs {
     display: inline;
     width: auto;
     margin-right: 1em;
   }
 }
+
+.latestJobTag {
+  @include xs {
+    max-width: 250px;
+    display: block;
+    white-space: normal;
+  }
+}
+
 
 .latestJobMoreButton {
   border: 2px solid;
@@ -138,8 +155,9 @@
   }
   @include xs {
     position: absolute;
-    right: 0;
-    top: -5px;
+    right: -52px;
+    bottom: 20px;
+    width: 55px;
   }
 
   .buttonText {
