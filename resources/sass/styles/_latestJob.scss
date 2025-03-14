@@ -31,6 +31,14 @@
     height: 120px;
   }
 }
+.latestJobList {
+  @include xs {
+    height: 65px !important;
+  }
+}
+
+
+
 
 .latestJobTitle {
   width: 100%;
@@ -156,7 +164,7 @@
   @include xs {
     position: absolute;
     right: -52px;
-    bottom: 20px;
+    bottom: 2px;
     width: 55px;
   }
 

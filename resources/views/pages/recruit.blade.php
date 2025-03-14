@@ -28,7 +28,7 @@
                         </ul>
                         <p class="text-01">製造メーカー・ササキグループの<br>人材サービス会社だから安心<span class="big">！</span></p>
                         <p class="text-02">ステップアップ<span class="samll">したいあなたに</span></p>
-                        <p class="text-03">正社員<span class="samll two">の</span>仕事<span class="samll"> も</span>派遣<span class="samll two">の</span>仕事<span class="samll">も</span></p>
+                        <p class="text-03">正社員<span class="samll two">の</span>仕事<span class="samll">も</span>派遣<span class="samll two">の</span>仕事<span class="samll">も</span></p>
                         <p class="text-04">ここにあります<span class="big two">！</span></p>
     
                         <div class="list-button flex destop">
@@ -278,11 +278,17 @@
                             </ul>
                             <div class="box-last">
                                 <li class="item-features flex last">
-                                    <picture class="last-box">
-                                        <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_13_sp.png')}} 2x">
-                                        <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_13_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_13_pc.png')}}" alt="">
-                                    </picture> 
+                                    <div class="last-box">
+                                        <picture>
+                                            <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_13_sp.png')}} 2x">
+                                            <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_13_pc.png')}} 2x">
+                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_13_pc.png')}}" alt="">
+                                        </picture> 
+                                        <p class="text-arrow">
+                                            さらに <span class="es-chance">CHANCE</span><span class="es-chance02">！</span>
+                                        </p>
+                                    </div>
+                       
                                     <dl class="dl-features last">
                                         <dt class="dt-features last">当社では正社員になりたい方も大歓迎です！</dt>
                                         <dd class="dd-features last">派遣社員には有給休暇や交通費支給がございますが、正社員になるとこれらに加えて、賞与支給や昇進のチャンスもございます。<br>また当社親会社の株式会社ササキ主催の各種イベント（社員旅行やBBQ、忘年会、お花見など）にもご参加いただくことができます。<br>会社を通して、キャリアアップはもちろん一生の仲間ができる…そういったことにつながれば幸いです。</dd>
@@ -313,7 +319,7 @@
                                         <dd class="dd-top">これまで製造業、飲食業、営業職等さまざまな職種を経験してきました。しかし、もう一度製造業の現場でスキルを身に付けたいという思いが強くなり、転職を決意しました。</dd>
                                     </dl>
                                     <dl class="dl-bottom">
-                                        <dt class="dt-bottom">前職</dt>
+                                        <dt class="dt-bottom">現在</dt>
                                         <dd class="dd-bottom">現在は製造業で、新しい技術を学びながら、着実にスキルを磨いています。<br>手を動かしてものを作り上げる喜びを<br class="pc-br">日々実感しており、将来に向けた自信が付いてきています。</dd>
                                     </dl>
                                 </li>
@@ -324,7 +330,7 @@
                                         <dd class="dd-top">地元（愛知県）のカーディーラーで整備士、海外企業向けの商社で働いていました。ですが、もっと幅広いスキルを身につけたい、特に海外での経験を積みたいと思い転職を決意しました。</dd>
                                     </dl>
                                     <dl class="dl-bottom">
-                                        <dt class="dt-bottom">前職</dt>
+                                        <dt class="dt-bottom">現在</dt>
                                         <dd class="dd-bottom">装置組立に関しては未経験での入社になりましたが、ベテラン社員さんからの手厚い研修によりサポートを受けながら業務にあたれています。<br class="sp-br">現在はエンジニアとして海外で装置の組立業務に従事しています。実際に現地での立ち上げ作業を行い、異文化環境の中で技術力と柔軟な対応力を磨いています。</dd>
                                     </dl>
                                 </li>
@@ -335,7 +341,7 @@
                                         <dd class="dd-top">地元の自動車部品工場で働いた後、派遣社員としてさまざまな現場を経験しました。その中で、大規模なプロジェクトに携わる現場を見学し、自分もこんなスケールの大きな仕事に関わりたいと思いました。</dd>
                                     </dl>
                                     <dl class="dl-bottom">
-                                        <dt class="dt-bottom">前職</dt>
+                                        <dt class="dt-bottom">現在</dt>
                                         <dd class="dd-bottom">現在は航空宇宙・防衛関連の製品製造に携わっています。<br>精密さと責任が求められる仕事にやりがいを感じ、スキルアップを実感しています！</dd>
                                     </dl>
                                 </li>
@@ -457,7 +463,7 @@
                                         <p class="text-title">スタッフ登録はどこから行えば良いですか？</p>
                                     </h3>
                                     <div class="content-toggle">
-                                        <p class ="text-toggle">各求人募集からご応募いただきましたら、当社よりご連絡いたします。<br>もしくは、こちらからのご登録も可能です。お気軽にご登録ください。</p>       
+                                        <p class ="text-toggle">各求人募集からご応募いただきましたら、当社よりご連絡いたします。<br>もしくは、<span class="line">こちら</span>からのご登録も可能です。お気軽にご登録ください。</p>       
                                     </div>
                                 </li>
                                 <li class="item">

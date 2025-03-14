@@ -16,7 +16,7 @@ if(isset($navItem['target']) && $navItem['target'] === '_blank'){
 }
 
 @endphp
-<div class="navItem {{$navItem['class'] ?? ''}}">
+<a class="navItem {{$navItem['class'] ?? ''}}"  href="{{$linkUrl}}">
     <div class="navItemFlex">
         <div class="{{$target}}">
             @if(isset($navItem['label']['top']))
@@ -25,10 +25,8 @@ if(isset($navItem['target']) && $navItem['target'] === '_blank'){
             @if(isset($navItem['label']['bottom']))
             <span class="{{$navItem['label']['bottom']['class']??''}}">{{$navItem['label']['bottom']['text']??''}}</span>
             @endif
-            @if(isset($navItem['url']))
-            <a href="{{$linkUrl}}"></a>
-            @endif
+   
         </div>
     </div>
-</div>
+</a>
 @endif

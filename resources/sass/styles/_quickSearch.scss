@@ -119,6 +119,7 @@ searchQuick　クイックサーチ
             display: none;
           }
           &:hover {
+
           }
           @include xs {
             width: 100%;
@@ -142,8 +143,10 @@ searchQuick　クイックサーチ
           width: 100%;
           height: 50px;
           border: solid 2px $searchSubmitBtnBorderColor;
+          font-weight: 400;
           &:hover {
-            opacity: .7;
+            // opacity: .7;
+            background: #F5ADA9;
           }
           @include xs {
             margin: 0 auto;
