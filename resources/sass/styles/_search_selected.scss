@@ -362,7 +362,7 @@
     .jobSearchBtn {
       @extend %formReset;
       display: inline-block;
-      background: $jobSearchBtnBgColor !important;
+      background:#2C4198 !important;
       transition: all .3s;
       color: $jobSearchBtnTextColor;
       font-weight: 500;

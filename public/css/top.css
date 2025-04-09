@@ -1,0 +1,187 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+body {
+  font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+#top {
+  font-size: 13px;
+  font-weight: 500;
+  background: #fff;
+  position: relative;
+}
+
+#top * {
+  box-sizing: border-box;
+}
+
+#top a {
+  transition: opacity .3s;
+}
+
+#top a[href^="tel:"] {
+  display: inline-block;
+  transition: none;
+}
+
+#top a:hover {
+  text-decoration: none;
+}
+
+#top a:focus-visible {
+  outline: none;
+}
+
+#top img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+#top .js-fadein {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition-property: opacity, transform;
+  transition-duration: 1s;
+}
+
+#top .scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+
+#top .inner {
+  /* width: calc(100% - 24px); */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#top .flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+#top {
+  position: relative;
+  /* font-family: "Noto Sans JP", sans-serif; */
+}
+
+
+#top .koulen {
+  font-family: "Koulen", serif;
+  font-style: normal;
+}
+
+
+#top .text-place {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+
+  z-index: 99;
+}
+#top .img-palce {
+  width: 50%;
+  padding: 0px 0px 0px 40px;
+}
+
+
+#top .text-place .dl-place {
+  max-width: 570px;
+  padding: 0px 10px 20px 0px;
+  padding-top:clamp(16px, 3vw, 55px); 
+  position: relative;
+  
+}
+#top .text-place .dl-place::after{
+   position: absolute;
+   content: "";
+   width: clamp(200px, 30vw, 467px); 
+   height: clamp(200px, 30vw, 467px); 
+   background: #F5F7FC;
+   left: -36%;
+   top: 9%;
+   z-index: -1;
+   border-radius: 50%;
+}
+#top .text-place .dl-place .dt-place {
+  font-size: clamp(16px, 4vw, 60px);
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+}
+#top .text-place .dl-place .dt-place::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/top/icon_title.svg);
+  width:600px;
+  height: 196px;
+  right: -32px;
+  bottom: -65px;
+
+}
+
+
+
+
+#top .text-place .dl-place .dd-place {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 30px;
+}
+#top .text-place .dl-place .dt-place .blue {
+  color: #2C4198;
+  display: inline-block;
+  margin-left: -32px;
+  letter-spacing: -2px;
+  margin-bottom: clamp(30px, 5vw, 70px);;
+}
+
+
+
+
+#top  .link-top {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #2C4198;
+  padding: 22px 20px 22px 15px;
+  color: #2C4198;
+  font-size: clamp(16px, 1.75vw, 22px);
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  margin-top: 60px;
+}
+#top  .link-top::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/top/arrow_left_right.svg);
+  width: 16px;
+  height: 30px;
+  right: 17px;
+  top: 24px;
+
+}
+#top  .link-top:hover {
+  background: #2C4198;
+  color: #fff;
+}
+#top  .link-top:hover::after{
+  position: absolute;
+  content: "";
+  background-image: url(../images/top/arrow_left_right_hover.svg);
+}
+
+#top .block-place {
+  padding: 85px 0px 20px 0px;
+}

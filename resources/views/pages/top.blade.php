@@ -15,6 +15,8 @@
     @endif
 
     <div id="template01" class="topContentBox">
+        <x-topContent />
+
     </div>
 
 {{--    <div id="topLinkBoxAbout">--}}

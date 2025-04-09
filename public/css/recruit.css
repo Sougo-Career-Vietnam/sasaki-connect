@@ -145,18 +145,22 @@ picture img {
 }
 #recruit  .text-main .text-01 {
   font-size: clamp(16px, 3vw, 40px);
-  color: #E73128;
-  font-weight: 700;
-  line-height: 50px;
-  margin-bottom: 10px;
-  text-shadow: 1px 2px 8px #FFFFFF;
+    color: #E73128;
+    font-weight: 700;
+    line-height: 53px;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px 8px #FFFFFF;
+    position: relative;
+    display: inline-block;
 }
 #recruit  .text-main .big {
   font-size: clamp(16px, 3vw, 52px);
   color: #E73128;
   font-weight: 700;
-  margin-left: -14px;
-  /* vertical-align: top; */
+  margin-left: 0px;
+  position: absolute;
+  right: 40px;
+  bottom: 1px;
 }
 #recruit  .text-main .text-02 {
   font-size: clamp(16px, 4vw, 70px);
@@ -178,14 +182,15 @@ picture img {
   font-size: clamp(16px, 4vw, 70px);
   color: #162566;
   font-weight: 700;
-  letter-spacing: -4px;
+  letter-spacing: 0px;
   margin-left: -2px;
-  margin-bottom: -16px;
+  margin-bottom: -5px;
   text-shadow: 1px 2px 8px #FFFFFF;
 }
 
 #recruit  .text-main .samll.two {
   color: #162566;
+  margin: 0px -5px;
 }
 #recruit  .text-main .text-04 {
   font-size: clamp(16px, 4vw, 70px);
@@ -193,8 +198,11 @@ picture img {
   font-weight: 700;
   margin-left: -14px;
   letter-spacing: -3px;
-  margin-bottom: clamp(16px, 4vw, 57px);
+  margin-bottom: clamp(16px, 4vw, 61px);
   text-shadow: 1px 2px 8px #FFFFFF;
+  position: relative;
+  display: inline-block;
+  padding-left: 7px;
 }
 #recruit .list-button .link-search{
   width: calc(50% - 15px);
@@ -275,9 +283,11 @@ picture img {
   font-size: clamp(16px, 5vw, 82px);
   color: #2C4198;
   font-weight: 700;
-  margin-left: -25px;
-  /* vertical-align: baseline; */
+  margin-left: 0px;
+  right: -52px;
+  bottom: -10px;
 }
+
 @media (max-width: 1800px) {
   #recruit .text-main .list-title {
       margin-bottom: clamp(16px, 2vw, 40px);
@@ -285,33 +295,128 @@ picture img {
   #recruit .text-main .text-04 {
       font-size: clamp(16px, 3vw, 60px);
       margin-bottom: clamp(16px, 4vw, 33px);
-      margin-left: -5px;
   }
   #recruit .text-main .text-01 {
       font-size: clamp(16px, 2vw, 40px);
-      line-height: 34px;
+      line-height: 37px;
       margin-bottom: 10px;
   }
   #recruit .text-main .text-02 {
-      font-size: clamp(16px, 3vw, 60px);
-      margin-bottom: -10px;
+      font-size: clamp(16px, 3vw, 55px);
+      margin-bottom: -8px;
+      letter-spacing: 0px;
   }
   #recruit .text-main .samll {
       font-size: clamp(16px, 3vw, 30px);
       color: #2C4198;
       font-weight: 700;
+      margin: 0px -3px;
   }
+
+    #recruit .text-main .samll.two {
+      margin: 0px -2px;
+    }
   #recruit .text-main .text-03 {
     font-size: clamp(16px, 3vw, 60px);
-    margin-bottom: -18px;
+    margin-bottom: -12px;
     margin-left: -2px;
+    letter-spacing: 2px;
   }
   #recruit .text-main .big.two {
-    font-size: clamp(16px, 3.5vw, 80px);
-    margin-left: -9px;
+    font-size: clamp(16px, 3.5vw, 67px);
+    margin-left: 0px;
+    right: clamp(-40px, 3.5vw, -40px);
+    bottom: -5px;
+  }
+  #recruit .text-main .big {
+    font-size: clamp(16px, 2.5vw, 43px);
+    right: clamp(16px, 2vw, 35px);
+    bottom: 1px;
+   }
+} 
+
+@media (max-width: 1300px) {
+  #recruit .text-main .item-title {
+    font-size: 14px;
+    width: calc(100% / 3 - 8px);
+    padding: 9px 2px 9px;
+    font-size: 18px;
+  }
+  #recruit .text-main .text-01 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  #recruit .text-main .text-02 {
+    font-size: 42px;
+    margin-bottom: -5px;
+  }
+  #recruit .text-main .samll {
+    font-size: 32px;
+    margin: 0px 0px;
+  }
+
+  #recruit .text-main .samll.two {
+    color: #162566;
+    margin: 0px 0px;
+  }
+  #recruit .text-main .text-03 {
+    font-size: 41px;
+    margin-bottom: -5px;
+    margin-left: -2px;
+  }
+  #recruit .text-main .text-04 {
+    font-size: 41px;
+    margin-bottom: 35px;
+  }
+
+  #recruit .text-main {
+    width: 45%;
+  }
+  #recruit .text-main .item-title::after {
+    transform: scale(0.7);
+    bottom: -16px;
+    left: 46%;
+  }
+  #recruit .list-button .link-search {
+    width: calc(50% - 10px);
+    border-radius: 40px;
+    padding: 13px 0px 13px 30px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+    font-weight: 700;
+    text-decoration: none;
+  }
+  #recruit .list-button .link-entry {
+    width: calc(50% - 10px);
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 13px 0px 13px 70px;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s;
+  }
+  #recruit .list-button .link-search::after {
+    left: 28px;
+    top: 13px;
+    transform: scale(0.7);
+  }
+  #recruit .list-button .link-entry::after {
+    left: 28px;
+    top: 9px;
+    transform: scale(0.7);
+  }
+  #recruit .text-main .list-title {
+    margin-bottom: 45px;
+  }
+  #recruit .text-main .big.two {
+    font-size: 46px;
+    right: clamp(-33px, 3.5vw, -40px);
+    bottom: -4px;
   }
 }
-
 
 /*content-main*/
 /*====================================================*/
@@ -1135,6 +1240,7 @@ picture img {
 }
 #recruit .content-main .box-question .text-toggle .line {
   text-decoration: underline;
+  color: #2C4198;
 }
 
 
@@ -1384,83 +1490,6 @@ picture img {
 }
 
 
- @media (max-width: 1160px) {
-/*   
-  #recruit .text-main .item-title {
-      font-size: clamp(14px, 1.75vw, 30px);
-      width: calc(100% / 3 - 4px);
-      padding: 8px 2px 8px;
-  }
-
-  #recruit .text-main .text-01 {
-      font-size: clamp(14px, 2vw, 40px);
-      line-height: 26px;
-      margin-bottom: 10px;
-  }
-  #recruit .text-main .text-02 {
-      font-size: clamp(16px, 3vw, 40px);
-      margin-bottom: -5px;
-  }
-  #recruit .text-main .samll {
-      font-size: clamp(16px, 3vw, 18px);
-  }
-  #recruit .text-main .text-03 {
-      font-size: clamp(16px, 3vw, 40px);
-  }
-  #recruit .text-main .text-04 {
-      font-size: clamp(23px, 2vw, 40px);
-      margin-bottom: clamp(10px, 4vw, 20px);
-      margin-left: -3px;
-  }
-
-  #recruit .list-button .link-search {
-      font-size: clamp(14px, 1vw, 22px);
-      padding: 8px 0px 8px 30px;
-  }
-  #recruit .list-button .link-entry {
-      font-size: clamp(14px, 1vw, 22px);
-      padding: 8px 0px 8px 40px;
-  }
-  #recruit .list-button .link-search::after {
-      background-image: url(../images/lp/icon-search_sp.svg);
-      width: 26px;
-      height: 26px;
-      transform: scale(0.7);
-      top: 8px;
-      left: 8px;
-  }
-  #recruit .list-button .link-search:hover::after {
-      background-image: url(../images/lp/icon-search_sp_hover.svg);
-  }
-
-  #recruit .list-button .link-entry::after {
-      background-image: url(../images/lp/icon_entry.svg);
-      width: 32px;
-      height: 30px;
-      transform: scale(0.7);
-      top: 3px;
-      left: 8px;
-  }
-
-  #recruit .list-button .link-entry:hover::after {
-      background-image: url(../images/lp/icon_entry_hover.svg);
-  } */
-  #recruit .text-main .text-02 {
-    margin-bottom: -3px;
-  }
-
-  #recruit .text-main .text-03 {    
-    margin-bottom: -3px;
-  }
-  #recruit .text-main .text-01 {
-    line-height: 24px;
-    margin-bottom: 10px;
-    margin-top: 35px;
-  }
-  
-
-} 
-
 
 #recruit .sp-br {
   display: none;
@@ -1543,7 +1572,7 @@ picture img {
 
   }
   #recruit .text-main .text-01 {
-      font-size: clamp(12px, 4vw, 15px);
+      font-size: clamp(12px, 5vw, 17px);
       line-height: 19px;
       margin-bottom: 4px;
       padding-left: 8px;
@@ -1555,29 +1584,30 @@ picture img {
       margin-bottom: clamp(10px, 5vw, 13px);
   }
   #recruit .text-main .text-02 {
-      font-size: clamp(12px, 7vw, 29px);
-      margin-bottom: 1px;
+      font-size: clamp(12px, 8vw, 29px);
+      margin-bottom: -3px;
       padding-left: 10px;
       letter-spacing: 1px;
       text-shadow: 1px 2px 8px #FFFFFF;
   }
   #recruit .text-main .samll {
       font-size: clamp(12px, 5vw, 18px);
+      margin-left: -2px;
   }
   #recruit .text-main .samll.two{
-    font-size: clamp(12px, 7vw, 29px);
-    margin-left: -3px;
+    font-size: clamp(12px, 7vw, 18px);
+    margin-left: -2px;
   }
   #recruit .text-main .text-03 {
-      font-size: clamp(12px, 7vw, 29px);
-      padding-left: 6px;
-      letter-spacing: 3px;
-      margin-bottom: 0px;
+      font-size: clamp(12px, 8vw, 29px);
+      padding-left: 9px;
+      letter-spacing: 2px;
+      margin-bottom: -5px;
       text-shadow: 1px 2px 8px #FFFFFF;
   }
   #recruit .text-main .text-04 {
-      font-size: clamp(12px, 7vw, 29px);
-      padding-left: 5px;
+      font-size: clamp(12px, 8vw, 29px);
+      padding-left: 19px;
       letter-spacing: 0px;
       text-shadow: 1px 2px 8px #FFFFFF;
   }
@@ -1605,13 +1635,17 @@ picture img {
   }
 
   #recruit .text-main .big {
-      font-size: 18px;
-      margin-left: -4px;
+    font-size: 18px;
+    margin-left: 0px;
+    right: 20px;
+    bottom: -1px;
   }
 
   #recruit .text-main .big.two {
-    font-size: 26px;
-      margin-left: -4px;
+    font-size: 33px;
+    margin-left: -4px;
+    right: -22px;
+    bottom: -4px;
   }
 
 
@@ -1752,6 +1786,7 @@ picture img {
       font-size: 13px;
       line-height: 24px;
       padding: 0px 14px 0px 0px;
+      text-align: justify;
   }
   #recruit .box-point .item-sakaki {
       position: relative;
@@ -1798,6 +1833,7 @@ picture img {
       font-weight: 400;
       line-height: 24px;
       color: #2C4198;
+      text-align: justify;
   }
   #recruit .box-job .item-job:nth-child(2) {
       padding: 18px 13px 43px 13px;
@@ -1918,6 +1954,7 @@ picture img {
       font-weight: 500;
       line-height: 24px;
       color: #2C4198;
+      text-align: justify;
   }
   #recruit .box-features .item-features {
       margin-bottom: 31px;
@@ -2035,7 +2072,7 @@ picture img {
   #recruit .box-voice .dd-bottom {
       font-size: 13px;
       line-height: 24px;
-
+      text-align: justify;
   }
   #recruit .box-voice .dl-bottom {
       padding: 10px 20px 25px 20px;
@@ -2076,6 +2113,7 @@ picture img {
   #recruit .box-voice .inner-voice .dd-voice {
       font-size: 13px;
       line-height: 24px;
+      text-align: justify;
   }
 
   #recruit .box-voice .list-voice {
@@ -2237,7 +2275,7 @@ picture img {
   }
 
   #recruit .content-main .box-question .heading-toggle::after {
-      top: 9px;
+      top: calc(50% - 13.5px);
       right: 21px;
       transform: scale(0.5);
   }
@@ -2256,7 +2294,7 @@ picture img {
   #recruit .content-main .box-question .heading-toggle.open::after {
       background-image: url(../images/lp/close.svg);
       height: 5px;
-      top: 20px;
+      top: calc(50% - 1.5px);
   }
 
   #recruit .list-recruit .link-search02::after {
@@ -2276,8 +2314,9 @@ picture img {
     margin-bottom: 10px;
   }
   #recruit .box-recruit .box-title .title-page {
-    line-height: clamp(16px, 5vw, 85px);
+    line-height: clamp(16px, 6vw, 85px);
     margin-bottom: 10px;
+    line-height: 22px;
   }
 
   #recruit .box-recruit {
@@ -2315,9 +2354,9 @@ picture img {
     left: 1px;
   }
   #recruit .text-main .text-03 {
-    font-size: 20px;
     margin-bottom: -8px;
-    padding-left: 8px;
+    padding-left: 7px;
+    letter-spacing: 1px;
   }
   #recruit .list-button .link-entry::after {
     top: 2px;
@@ -2333,13 +2372,24 @@ picture img {
  }
   #recruit .text-main .text-02 {
     margin-bottom: -6px;
+    padding-left: 9px;
+
   }
   #recruit .text-main .text-04 {
-    padding-left: 9px;
+    padding-left: 17px;
   }
   #recruit .text-main .text-01 {
     margin-bottom: 0px;
-    line-height: 17px;
+    line-height: 18px;
+  }
+  #recruit .text-main .big {
+    font-size: 19px;
+    margin-left: 0px;
+    right: 18px;
+    bottom: 0px;
+  }
+  #recruit .text-main .big.two {
+    font-size: 30px;
   }
 }
 

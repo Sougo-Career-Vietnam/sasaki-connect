@@ -18,7 +18,7 @@
                      <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_main_sp.jpg')}} 2x">
                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_main_pc.jpg')}} 2x">
-                        <img class="sizes" src="{{asset('images/lp/recruit_main_pc.jpg')}}" alt="">
+                        <img class="sizes" src="{{asset('images/lp/recruit_main_pc.jpg')}}" alt="製造メーカー・ササキグループの人材サービス会社だから安心！ステップアップしたいあなたに正社員の仕事も派遣の仕事もここにあります！">
                     </picture>  
                     <div class ="text-main">
                         <ul class="list-title flex">
@@ -32,14 +32,14 @@
                         <p class="text-04">ここにあります<span class="big two">！</span></p>
     
                         <div class="list-button flex destop">
-                            <a class="link-search">求人情報はこちらから</a>
-                            <a class="link-entry">ご登録はこちらから</a>
+                            <a class="link-search" href="{{Route('top')}}/search/">求人情報はこちらから</a>
+                            <a class="link-entry" href="{{Route('top')}}/recruit/form/">ご登録はこちらから</a>
                         </div>
     
                     </div>
                     <div class="list-button flex mobi">
-                        <a class="link-search">求人情報はこちらから</a>
-                        <a class="link-entry">ご登録はこちらから</a>
+                        <a class="link-search" href="{{Route('top')}}/search/">求人情報はこちらから</a>
+                        <a class="link-entry" href="{{Route('top')}}/recruit/form/">ご登録はこちらから</a>
                     </div>
                     
     
@@ -57,7 +57,7 @@
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_01_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_01_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/lp/recruit_pic_01_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/lp/recruit_pic_01_pc.png')}}" alt="考えている男性">
                                 </picture> 
                                 <ul class="list-point">
                                     <li class="item-point">なかなか良い仕事が見つからない</li>
@@ -68,10 +68,7 @@
                                 </ul>
                            </div>
                         </div>
-    
-    
-    
-    
+
                     </section>
                    <!-- Point-->
                    <section class="box-point">
@@ -91,11 +88,11 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_02_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_02_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_02_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_02_pc.png')}}" alt="工場の写真">
                                         </picture> 
                                         <dl class="dl-point">
                                             <dt class="dt-point">安定の大手製造業で<br class="pc-br">仕事ができる！</dt>
-                                            <dd class="dd-point">当社のお仕事は、半導体製造装置や航空宇宙防衛関係の製品など名だたる大手製造業の企業様が多く、ス<br class="sp-br">ケールが大きい一流の技術に触れる現場で仕事ができます。</dd>
+                                            <dd class="dd-point">当社のお仕事は、半導体製造装置や航空宇宙防衛関係の製品など名だたる大手製造業の企業様が多く、スケールが大きい一流の技術に触れる現場で仕事ができます。</dd>
                                         </dl>
     
                                     </li>
@@ -108,7 +105,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_03_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_03_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_03_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_03_pc.png')}}" alt="男性社員">
                                         </picture> 
                                         <dl class="dl-point">
                                             <dt class="dt-point">スキルアップができます！</dt>
@@ -124,7 +121,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_04_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_04_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_04_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_04_pc.png')}}" alt="作業をしている男性社員">
                                         </picture> 
                                         <dl class="dl-point">
                                             <dt class="dt-point">付加価値の高い業務経験で<br>キャリアアップも</dt>
@@ -148,7 +145,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_05_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_05_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_05_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_05_pc.png')}}" alt="作業の様子">
                                     </picture> 
                                     <dl class="dl-job">
                                         <dt class="dt-job">半導体製造装置の立ち上げ業務</dt>
@@ -157,9 +154,20 @@
                                 </li>
                                 <li class="item-job">
                                     <picture>
+                                        <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_07_sp.png')}} 2x">
+                                        <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_07_pc.png')}} 2x">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_07_pc.png')}}" alt="PC業務を行う男性社員">
+                                    </picture> 
+                                    <dl class="dl-job">
+                                        <dt class="dt-job">装置関連の製造・設計・管理業務</dt>
+                                        <dd class="dd-job">半導体製造装置の組立だけではなく、組立におけるサポート業務もございます。主に仕様書作成から工程管理、工具管理、設計サポートなど製造現場を中枢を担う業務です。</dd>
+                                    </dl>
+                                </li>
+                                <li class="item-job">
+                                    <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_06_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_06_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_06_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_06_pc.png')}}" alt="作業の様子">
                                     </picture> 
                                     <dl class="dl-job">
                                         <dt class="dt-job">半導体製造装置の組立業務</dt>
@@ -169,21 +177,9 @@
                                 </li>
                                 <li class="item-job">
                                     <picture>
-                                        <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_07_sp.png')}} 2x">
-                                        <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_07_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_07_pc.png')}}" alt="">
-                                    </picture> 
-                                    <dl class="dl-job">
-                                        <dt class="dt-job">半導体製造装置の組立サポート</dt>
-                                        <dd class="dd-job">半導体製造装置の組立だけではなく、組立におけるサポート業務もございます。主に仕様書作成から工程管理、工具管理、設計サポートなど製造現場を中枢を担う業務です。</dd>
-                                    </dl>
-    
-                                </li>
-                                <li class="item-job">
-                                    <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_08_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_08_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_08_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_08_pc.png')}}" alt="ロケットの写真">
                                     </picture> 
                                     <dl class="dl-job">
                                         <dt class="dt-job">航空宇宙・防衛関係製品の製造</dt>
@@ -209,7 +205,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_09_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_09_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_09_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_09_pc.png')}}" alt="男女社員の写真">
                                     </picture> 
                                     <dl class="dl-work">
                                         <dt class="dt-work">正社員<span class="small-work">（正社員は職業紹介が主となります）</span></dt>
@@ -220,7 +216,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_10_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_10_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_10_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_10_pc.png')}}" alt="笑顔の女性社員">
                                     </picture> 
                                     <dl class="dl-work two">
                                         <dt class="dt-work">派遣社員</dt>
@@ -255,7 +251,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_11_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_11_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_11_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_11_pc.png')}}" alt="企業の建物">
                                     </picture> 
                                 </li>
     
@@ -268,7 +264,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_12_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_12_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_12_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_12_pc.png')}}" alt="会話する社員の様子">
                                     </picture> 
                                 </li>
     
@@ -282,7 +278,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_13_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_13_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_13_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_13_pc.png')}}" alt="笑顔の社員">
                                         </picture> 
                                         <p class="text-arrow">
                                             さらに <span class="es-chance">CHANCE</span><span class="es-chance02">！</span>
@@ -309,8 +305,6 @@
                             <p class="line"></p>
                         </div>
                         <div class="inner">
-    
-    
                             <ul class="list-voice flex">
                                 <li class="item-voice">
                                     <dl class="dl-top">
@@ -345,32 +339,22 @@
                                         <dd class="dd-bottom">現在は航空宇宙・防衛関連の製品製造に携わっています。<br>精密さと責任が求められる仕事にやりがいを感じ、スキルアップを実感しています！</dd>
                                     </dl>
                                 </li>
-    
-          
                             </ul>
-    
-                            
                                 <div class="item-voice-last">
                                     <div class="inner-voice flex">
                                         <picture class="last-box">
                                             <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_14_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_14_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_14_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/lp/recruit_pic_14_pc.png')}}" alt="採用担当の写真">
                                         </picture> 
                                         <div class="dl-voice">
                                             <dt class="dt-voice">個性や強みを活かして輝ける場所が、<br class="sp-br">SASAKI CONNECTです！</dt>
                                             <dd class="dd-voice">未経験の方でも一歩踏み出す勇気さえあれば、ここで新たな自分を見つけることができます。<br>経験者の方は今までのスキルを活かしながら、さらに成長できるフィールドをご用意しています。
-                                                それぞれの個性や強みを活かして輝ける場所が、私たちの職場です！（採用担当　久保田）</dd>
+                                                それぞれの個性や強みを活かして輝ける場所が、私たちの職場です！（採用担当　榛原）</dd>
                                         </div>
                                     </div>
-                    
-                         
                                 </div>
-                           
-    
                         </div>
-    
-    
                     </section>
     
                     <!-- box-flow -->
@@ -389,7 +373,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_15_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_15_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_15_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_15_pc.png')}}" alt="携帯電話">
                                     </picture> 
                                     <p class="text-flow">
                                         このページ最下部の「求人案件から探す」ボタンから求人案件にエントリー、<br class="pc-br">または「ご登録はこちらから」ボタンからエントリーをお願いします。
@@ -404,7 +388,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_16_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_16_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_16_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_16_pc.png')}}" alt="面接の様子">
                                     </picture> 
                                     <p class="text-flow">
                                         当社でご面談、または派遣のご登録を行っていただきます。<br>当社コーディネーターがあなたのご希望やご意向を詳しく伺います。
@@ -419,7 +403,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_17_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_17_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_17_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_17_pc.png')}}" alt="女性社員">
                                     </picture> 
                                     <p class="text-flow">
                                         派遣の方はあなたの適性やご希望に合わせてご提案。ご希望に合えば職場見学へ進みます。正社員ご希望の方にも同様に、ご就業いただく企業を紹介、面接へと進めてまいります。
@@ -434,7 +418,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/lp/recruit_pic_18_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/lp/recruit_pic_18_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_18_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/lp/recruit_pic_18_pc.png')}}" alt="作業をしている男性社員">
                                     </picture> 
                                     <p class="text-flow">
                                         あなたと紹介先企業側の双方が合意いただいたら晴れて入社です！<br>ご都合の良い日からご就業いただきます。
@@ -463,7 +447,7 @@
                                         <p class="text-title">スタッフ登録はどこから行えば良いですか？</p>
                                     </h3>
                                     <div class="content-toggle">
-                                        <p class ="text-toggle">各求人募集からご応募いただきましたら、当社よりご連絡いたします。<br>もしくは、<span class="line">こちら</span>からのご登録も可能です。お気軽にご登録ください。</p>       
+                                        <p class ="text-toggle">各求人募集からご応募いただきましたら、当社よりご連絡いたします。<br>もしくは、<a class="line" href="http://jobs.technologies-group.co.jp/commissions/company_view/1619" target="_blank">こちら</a>からのご登録も可能です。お気軽にご登録ください。</p>       
                                     </div>
                                 </li>
                                 <li class="item">
@@ -518,15 +502,14 @@
                                             <dt class="dt-recruit">最短で3日後からスタート！<br>ただいま絶賛募集中の</dt>
                                             <dd class="dd-recruit">求人案件から探す</dd>
                                         </dl>
-                                        <a class="link-search02">求人情報はこちらから</a>
+                                        <a class="link-search02" href="{{Route('top')}}/search/">求人情報はこちらから</a>
                                     </li>
-                                 
                                     <li class="item-recruit two">
                                         <dl class="dl-recruit">
                                             <dt class="dt-recruit">まずはお話し・ご登録から<br>派遣ご登録も正社員の面接も</dt>
                                             <dd class="dd-recruit">ご登録・ご面談</dd>
                                         </dl>
-                                        <a class="link-entry02">ご登録はこちらから</a>
+                                        <a class="link-entry02" href="{{Route('top')}}/recruit/form/">ご登録はこちらから</a>
                                     </li>
     
                            </ul>

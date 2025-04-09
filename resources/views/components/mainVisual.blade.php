@@ -3,10 +3,14 @@ $sliderImgList = array(
     'pc' => array(
 //        'mv_movie_pc.mp4',
         'top_img_main_01_pc.png',
+        'top_img_main_02_pc.png',
+        'top_img_main_03_pc.png'
     ),
     'sp' => array(
 //        'mv_movie_sp.mp4',
         'top_img_main_01_sp.png',
+        'top_img_main_02_sp.png',
+        'top_img_main_03_sp.png'
     ),
 );
 $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」内に入力してください
