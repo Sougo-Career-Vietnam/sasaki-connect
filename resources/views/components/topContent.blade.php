@@ -82,17 +82,79 @@
                                 </picture> 
                             </div>
                          </li>
-
-
-
-
-
                     </ul>
-
-
+                    <div class="block-note">
+                        <p class="title-note">お客様の声</p>
+                        <ul class="list-note flex">
+                            <li class="item-note">
+                                <h4 class="h4-note">製造業TE社（長野県）採用担当T様</h4>
+                                <p class="p-note">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                            </li>
+                            <li class="item-note">
+                                <h4 class="h4-note two">製造業P社（山梨県）工場長K様</h4>
+                                <p class="p-note">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
 
+            </section>
+
+            <section class="block-link">
+                <div class="inner-link">
+                    <div class="item-link one">
+                        <p class="title-link">よくある質問<span class="es-link">FAQ</span></p>
+                        <a class="link-top three" href="">お問い合わせの前に</a>
+                    </div>
+                    <div class="item-link">
+                        <p class="title-link">会社案内<span class="es-link">COMPANY PROFILE</span></p>
+                        <a class="link-top three add" href="">SASAKI CONNECTのご案内</a>
+                    </div>
+
+                </div>
+         
+            </section>
+
+
+            <section class="block-info">
+                <div class="inner">
+                  <div class="conent-info">
+                    <h4 class="title-page info"><span>採用・お仕事情報</span></h4>
+                    <div class="note-info">
+                        <p class="info01">＂一段上の＂お仕事で確かなスキルを</p>
+                        <p class="info02">SASAKI CONNECTで安定・ハイスキルの仕事を見つけよう！</p>
+                    </div>
+                    <p class="text-info">
+                        求職者のみなさまへ。<br>
+私たちSASAKI CONNECTは製造業に特化したお仕事紹介または派遣サービスをご紹介しています。製造業の中でも大手・成長産業分野に強い当社が、正社員就職やキャリア転職など、あなたのステップアップを応援いたします。
+                    </p>
+                    <div class="img-pc">
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="{{asset('images/top/top_img_05_pc.png')}} 2x">
+                            <img class="sizes" src="{{asset('images/top/top_img_05_pc.png')}}" alt="">
+                        </picture> 
+                     </div>
+                     {{-- <div class="img-mobi">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="{{asset('images/top/top_img_05_sp.png')}} 2x">
+                            <img class="sizes" src="{{asset('images/top/top_img_05_sp.png')}}" alt="">
+                        </picture> 
+                     </div> --}}
+
+                    <div class="link-info">
+                        <a class="link-top three" href="">お問い合わせの前に</a>
+                    </div>
+                    <p class="note-last">お仕事お探しの方はこちら▲のバナーまたは、▼の求人検索からお探しください！</p>
+                  </div>
+
+             
+
+
+
+
+
+                </div>
 
             </section>
    
