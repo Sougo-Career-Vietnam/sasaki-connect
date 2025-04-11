@@ -960,3 +960,63 @@ body {
 }
 
 
+
+
+
+#top .swiper-wrapper {
+  position: relative;
+}
+#top .swiper-wrapper .box-text {
+  position: absolute;
+  top: 17%;
+left: 9%;
+}
+#top .title-main {
+  font-size: clamp(60px, 6vw, 100px);
+  line-height: clamp(95px, 8vw, 150px);
+  margin-bottom: clamp(20px, 2.5vw, 45px);
+  color: white;
+  font-weight: 700;
+}
+#top .note-banner {
+  font-size: clamp(16px, 2vw, 32px);
+  line-height: clamp(20px, 3vw, 55px);
+  color: white;
+  font-weight: 700;
+ 
+}
+@media (max-width: 1300px) {
+  #top .note-banner {
+      font-size :20px;
+  }
+
+}
+
+@media (max-width: 767px)  {
+  #top .swiper-wrapper .box-text {
+      position: absolute;
+      top: 6%;
+      left: 8%;
+  }
+  #top .title-main {
+      font-size: 35px;
+      line-height: 50px;
+      margin-bottom: 18px;
+  }
+  #top .note-banner {
+      font-size: 13px;
+      line-height: 20px;
+      text-shadow: 0px 2px 2px rgba(22, 37, 102, 0.7)
+ }
+}
+@media (max-width: 350px)  {
+  #top .title-main {
+      font-size: 30px;
+      line-height: 44px;
+      margin-bottom: 10px;
+  }
+  #top .note-banner {
+      font-size: 12px;
+      line-height: 20px;
+ }
+}

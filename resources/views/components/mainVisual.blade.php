@@ -15,8 +15,10 @@ $sliderImgList = array(
 );
 $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」内に入力してください
 ?>
-
+ <link rel="stylesheet" media="all" href="./css/top.css"/>
 @if(($sliderImgList['pc'] && count($sliderImgList['pc']) > 0) || ($sliderImgList['sp'] && count($sliderImgList['sp']) > 0))
+
+
 
 <div id="mvSlider">
     <div class="mvWrapper">
@@ -38,6 +40,10 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                 <div class="swiper-wrapper">
                     <?php foreach($imgListPc as $key => $imgName): ?>
                     <div class="swiper-slide">
+                        <div class="box-text">
+                            <h1 class="title-main">人が、<br>現場と経営を<br>強くする</h1>
+                            <p class="note-banner">SASAKI CONNECTは、<br>製造現場における人と信頼をつなぐ人材会社です</p>
+                        </div>
                         <picture>
                             <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/'. $imgListSp[$key])}} 2x">
                             <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/'. $imgName)}} 2x">
