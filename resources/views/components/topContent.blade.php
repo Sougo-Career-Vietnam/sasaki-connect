@@ -28,6 +28,13 @@
                         <img class="sizes" src="{{asset('images/top/top_img_01_pc.png')}}" alt="">
                     </picture>  
                  </div>
+                 <div class="img-icon">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="{{asset('images/top/icon_botom_sp.svg')}}">
+                        <source media="(min-width: 768px)" srcset="{{asset('images/top/icon_botom_pc.svg')}}">
+                        <img class="sizes" src="{{asset('images/top/icon_botom_pc.svg')}}" alt="">
+                    </picture>  
+                 </div>
 
             </section>
 
@@ -39,9 +46,11 @@
                          <li class="item-conncet flex">
                             <dl class="dl-conncet">
                                 <dt class="dt-conncet">サービス紹介<span class="es-dt">SERVICE</span></dt>
-                                <dd class="dd-conncet">人材不足の「困った」を当社４つのソリューションをベースにさまざまな角度からアプローチ。特に半導体製造、航空・宇宙・防衛関連、医療機器製造の各業種を得意としております。</dd>
-
-                                <a class="link-top two" href="">サービス紹介ページへ</a>
+                                <dd class="dd-conncet">人材不足の「困った」を当社４つのソリューションをベースにさまざまな角度からアプローチ。<br class="sp-br">特に半導体製造、航空・宇宙・防衛関連、医療機器製造の各業種を得意としております。</dd>
+                                 <dd class="flex-mobi">
+                                    <a class="link-top two" href="">サービス紹介ページへ</a>
+                                 </dd>
+                                
                             </dl>
                             <div class="box-img">
                                 <picture>
@@ -55,8 +64,9 @@
                             <dl class="dl-conncet">
                                 <dt class="dt-conncet">選ばれる理由<span class="es-dt">REASON</span></dt>
                                 <dd class="dd-conncet">当社はすでに大手企業から地場企業まで製造業の企業様にご愛顧いただいております。<br>お客様、スタッフ様、そして当社の三方がWin-Winになる「三方良しの好循環」が私たちの強み・選ばれる理由です。</dd>
-
-                                <a class="link-top two" href="">選ばれる理由ページへ</a>
+                                <dd class="flex-mobi">
+                                  <a class="link-top two" href="">選ばれる理由ページへ</a>
+                                </dd>
                             </dl>
                             <div class="box-img">
                                 <picture>
@@ -70,9 +80,10 @@
                          <li class="item-conncet flex">
                             <dl class="dl-conncet">
                                 <dt class="dt-conncet">ご利用の流れ<span class="es-dt">FLOW</span></dt>
-                                <dd class="dd-conncet">「人材不足で困っている」「初めて問い合わせたい」という方に、当社サービスをご利用いただくまでの流れを記しました。<br>お気軽にお問い合わせください。</dd>
-
-                                <a class="link-top two" href="">ご利用の流れページへ</a>
+                                <dd class="dd-conncet">「人材不足で困っている」「初めて問い合わせたい」という方に、当社サービスをご利用いただくまでの流れを記しました。<br class="pc-br">お気軽にお問い合わせください。</dd>
+                                <dd class="flex-mobi">
+                                   <a class="link-top two" href="">ご利用の流れページへ</a>
+                                </dd>
                             </dl>
                             <div class="box-img">
                                 <picture>
@@ -105,11 +116,15 @@
                 <div class="inner-link">
                     <div class="item-link one">
                         <p class="title-link">よくある質問<span class="es-link">FAQ</span></p>
+                        <dd class="flex-mobi">
                         <a class="link-top three" href="">お問い合わせの前に</a>
+                        </dd>
                     </div>
                     <div class="item-link">
                         <p class="title-link">会社案内<span class="es-link">COMPANY PROFILE</span></p>
+                        <dd class="flex-mobi">
                         <a class="link-top three add" href="">SASAKI CONNECTのご案内</a>
+                        </dd>
                     </div>
 
                 </div>
@@ -118,6 +133,13 @@
 
 
             <section class="block-info">
+                <div class="img-icon two">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="{{asset('images/top/icon_botom_sp.svg')}}">
+                        <source media="(min-width: 768px)" srcset="{{asset('images/top/icon_botom_pc.svg')}}">
+                        <img class="sizes" src="{{asset('images/top/icon_botom_pc.svg')}}" alt="">
+                    </picture>  
+                 </div>
                 <div class="inner">
                   <div class="conent-info">
                     <h4 class="title-page info"><span>採用・お仕事情報</span></h4>
@@ -127,7 +149,7 @@
                     </div>
                     <p class="text-info">
                         求職者のみなさまへ。<br>
-私たちSASAKI CONNECTは製造業に特化したお仕事紹介または派遣サービスをご紹介しています。製造業の中でも大手・成長産業分野に強い当社が、正社員就職やキャリア転職など、あなたのステップアップを応援いたします。
+私たちSASAKI CONNECTは製造業に特化したお仕事紹介または派遣サービスをご紹介しています。<br class="sp-br">製造業の中でも大手・成長産業分野に強い当社が、正社員就職やキャリア転職など、あなたのステップアップを応援いたします。
                     </p>
                     <div class="img-pc">
                         <picture>
@@ -135,14 +157,8 @@
                             <img class="sizes" src="{{asset('images/top/top_img_05_pc.png')}}" alt="">
                         </picture> 
                      </div>
-                     {{-- <div class="img-mobi">
-                        <picture>
-                            <source media="(max-width: 767px)" srcset="{{asset('images/top/top_img_05_sp.png')}} 2x">
-                            <img class="sizes" src="{{asset('images/top/top_img_05_sp.png')}}" alt="">
-                        </picture> 
-                     </div> --}}
 
-                    <div class="link-info">
+                    <div class="flex-mobi">
                         <a class="link-top three" href="">お問い合わせの前に</a>
                     </div>
                     <p class="note-last">お仕事お探しの方はこちら▲のバナーまたは、▼の求人検索からお探しください！</p>
