@@ -689,11 +689,12 @@ body {
   }
 
   #top .title-page span::after {
-    width: 56px;
-    height: 24px;
+    background-image: url(../images/top/icon_title_page_sp.svg);
+    width: 64px;
+    height:33px;
     left: -56px;
     top: 4px;
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
   #top .title-page {
     font-size: clamp(14px, 6vw, 22px);

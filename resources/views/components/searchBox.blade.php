@@ -44,7 +44,7 @@
         <div class="searchBoxWrapper">
             <div class="searchBoxBg">
                 <h2 class="searchBoxTitle">
-                    <span class="ja">求人検索</span>
+                    {{-- <span class="ja">求人検索</span> --}}
                     <span class="en">SEARCH JOBS</span>
                 </h2>
                 <x-quickSearch :fEntSearchAxisData="$fEntSearchAxisData" :fEntConfig="$fEntConfig" />

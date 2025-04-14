@@ -56,10 +56,26 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       transition: opacity .3s;
       text-align: center;
       vertical-align: middle;
+  
+
+
+
       @include xs {
         width: 155px;
       }
     }
+    @media (max-width: 1600px) {
+      padding:0px 20px 0px 10px !important;
+      img {
+        width: 210px;
+      }
+    }
+
+
+
+
+
+
 
     a {
       @include minWidthXs {
@@ -162,44 +178,25 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
     flex: 0 1 140px;
     width: 100%;
     margin: 0;
-    background: #2C4198;
-    color: white;
-    padding: 0px 40px 0px 78px;
+   font-size: 16px;
+    color: #2F2F2F;
+    padding: 0px 37px 0px 3px;
     position: relative;
     transition: 0.5s;
     cursor: pointer;
     //border-bottom: solid 1px $spHeaderMenuBorderColor;
+
+    @media (max-width: 1600px) {
+      font-size: 12px;
+      padding: 0px 30px 0px 3px !important
+     }
     @include xs{
-      padding: 0px 40px 0px 40px;
+      padding: 0px 0px 0px 0px !important;
       background: #EBF0F9;
       margin: 20px 0px;
       color: #2F2F2F;
     }
-    &::after {
-      content: "";
-      position: absolute;
-      background-image: url(/public/images/common/icon_serch_tb.svg);
-      width: 30px;
-      height: 30px;
-      top: 25px;
-      left: 43px;
-      transform: scale(1);
-      @media print, screen and (max-width: 767px){
-          display: none;
-      }
-    }
-    &:hover {
-      background: #E8F3F9;
-      color: #2C4198;
-      // border: 1px solid !important;
-      &::after {
-        background-image: url(/public/images/common/icon_serch_hover.svg);
-        top: 25px;
-        left: 43px;
-        width: 30px;
-        height: 30px;
-      }
-     }
+
 
 
     a {
@@ -278,6 +275,46 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       //order: 11;
     }
   }
+
+  .navItem.search {
+    background: #2C4198;
+    color: white;
+    padding: 0px 40px 0px 80px !important;
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(/public/images/common/icon_serch_tb.svg);
+      width: 30px;
+      height: 30px;
+      top: 25px;
+      left: 43px;
+      transform: scale(1);
+      @media print, screen and (max-width: 767px){
+          display: none;
+      }
+    }
+    &:hover {
+      background: #E8F3F9;
+      color: #2C4198;
+      // border: 1px solid !important;
+      &::after {
+        background-image: url(/public/images/common/icon_serch_hover.svg);
+        top: 25px;
+        left: 43px;
+        width: 30px;
+        height: 30px;
+      }
+     }
+  }
+  .navItem.contact {
+    background: #282828;
+    color: white;
+    padding: 0px 45px 0px 45px !important;
+    font-size: 16px;
+  }
+
+
+
 
   .navItemFavorite {
     padding: 0;
@@ -483,7 +520,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       height: $defMenuHeightPc;
       margin-right: 0px; // アンダーライン入れたい場合にメニューごとの間に余白を追加する
       padding: 0;
-      padding: 0px 40px 0px 78px;
+      padding: 0px 37px 0px 3px;
       border: none;
 
       [class*="letter"] {

@@ -4,6 +4,39 @@ namespace App\config\Consts;
 class LocalMenuSettings
 {
     const HEADER_LIST = array(
+
+        [
+            "text" => "会社案内",
+            "url" => "/reason",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "サービス紹介",
+            "url" => "/workplace",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "選ばれる理由",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "ご依頼の流れ",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "よくある質問",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+
+
         [
             "text" => "求人検索",
             "url" => "/search",
@@ -13,13 +46,13 @@ class LocalMenuSettings
         [
             "text" => "お仕事を\nお探しの方へ",
             "url" => "/recruit",
-            "class" => "",
+            "class" => "search",
             "target" => "",
         ],
         [
-            "text" => "ご登録・ご面談のお申し込み",
+            "text" => "お問い合わせ",
             "url" => "/recruit/form",
-            "class" => "spOnly",
+            "class" => "contact",
             "target" => "",
         ],
     );
@@ -31,6 +64,52 @@ class LocalMenuSettings
             "class" => "one end",
             "target" => "",
         ],
+        [
+            "text" => "■弊社のご案内",
+            "url" => "",
+            "class" => "noLink",
+            "target" => "",
+        ],
+
+        [
+            "text" => "会社案内",
+            "url" => "/reason",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "サービス紹介",
+            "url" => "/workplace",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "選ばれる理由",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "ご依頼の流れ",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "よくある質問",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+        [
+            "text" => "お問い合わせ",
+            "url" => "/webregist",
+            "class" => "item-menu",
+            "target" => "",
+        ],
+
+
+
         [
             "text" => "■お仕事紹介について",
             "url" => "",

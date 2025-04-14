@@ -26,7 +26,7 @@
     width: calc(100% - 24px);
     max-width: $contentWidth;
     margin: 0 auto;
-    padding: 65px 0 55px;
+    padding: 100px 0 65px;
     text-align: center;
     @include xs {
       padding: 48px 0 20px;
@@ -44,9 +44,31 @@
       font-style: normal;
       letter-spacing: 0.08em;
       margin-bottom: 10px;
-      font-size: rem(16);
+      font-size: rem(54);
+      position: relative;
+      display: inline-block;
+      &::after {
+        content: "";
+        position: absolute;
+        background-image: url(/public/images/top/icon_title_page.svg);
+        width: 92px;
+        height: 38px;
+        top: 9px;
+        left: -100px;
+        transform: scale(1);
+        @media print, screen and (max-width: 767px){
+          content: "";
+          position: absolute;
+          width: 64px;
+          height: 33px;
+          left: -60px;
+          top: 1px;
+          transform: scale(0.8);
+          background-image: url(/public/images/top/icon_title_page_sp.svg);
+        }
+      }
       @include xs {
-        font-size: rem(18);
+        font-size: rem(27);
       }
     }
     .ja {

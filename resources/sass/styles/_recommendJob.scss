@@ -17,7 +17,7 @@
     height: calc(100% - 64px);
     bottom: 0;
     left: 0;
-    background-color: #EBF0F9;
+    background-color: #2C4198;
     z-index: -1;
     @include minWidthXs{
       //height: calc(100% - 83px);
@@ -57,12 +57,41 @@
     font-style: normal;
     letter-spacing: 0.02em;
     margin-bottom: 5px;
-    color: #2C4198;
-    font-size: rem(14);
+    color: #ffff;
+    font-size: rem(27);
+    position: relative;
+    display: inline-block;
     @include minWidthXs {
-      font-size: rem(20);
+      font-size: rem(54);
       margin-bottom: 24px;
     }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(/public/images/top/icon_title_page.svg);
+      width: 92px;
+      height: 38px;
+      top: 9px;
+      left: -98px;
+      transform: scale(1);
+      @media print, screen and (max-width: 767px){
+        content: "";
+        position: absolute;
+        width: 64px;
+        height: 33px;
+        left: -60px;
+        top: 1px;
+        transform: scale(0.8);
+        background-image: url(/public/images/top/icon_title_page_sp.svg);
+      }
+    }
+
+
+
+
+
+
   }
   .ja {
     font-size: rem(20);

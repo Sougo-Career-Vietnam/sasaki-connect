@@ -1,7 +1,7 @@
 <section id="recommendJob" class="recommendJob">
     <div class="recommendJobInner">
         <h2 class="recommendJobTitle">
-            <span class="ja">新着の求人情報</span>
+            {{-- <span class="ja">新着の求人情報</span> --}}
             <span class="en">NEW JOBS</span>
         </h2>
         <div class="recommendJobBox">
@@ -15,13 +15,13 @@
              
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" viewBox="0 0 16 30" fill="none">
-                        <path d="M2 28L14 16L2 4" stroke="#2C4198" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 28L14 16L2 4" stroke="#ffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
             </button>
             <button type="button" class="recommendJobButtonNext">
                 {{-- <i class="fas fa-angle-right"></i> --}}
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="30" viewBox="0 0 16 30" fill="none">
-                    <path d="M14 28L2 16L14 4" stroke="#2C4198" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 28L2 16L14 4" stroke="#ffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
 
             </button>
