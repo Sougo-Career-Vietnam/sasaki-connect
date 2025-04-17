@@ -65,6 +65,18 @@ Route::get('/favorite/p_{p}', [FavoriteController::class, 'store'])->where('p', 
 
 //content pages
 Route::get('/recruit', [ContentController::class, 'show'])->defaults('path', 'recruit')->name('recruit');
+Route::get('/reason', [ContentController::class, 'show'])->defaults('path', 'reason')->name('reason');
+Route::get('/company', [ContentController::class, 'show'])->defaults('path', 'company')->name('company');
+Route::get('/service', [ContentController::class, 'show'])->defaults('path', 'service')->name('service');
+Route::get('/flow', [ContentController::class, 'show'])->defaults('path', 'flow')->name('flow');
+Route::get('/faq', [ContentController::class, 'show'])->defaults('path', 'faq')->name('faq');
+
+
+
+
+
+
+
 
 // Ajax
 Route::post( '/latestJobs', [LatestJobController::class, 'store'])->name('ajax.latestJobs');

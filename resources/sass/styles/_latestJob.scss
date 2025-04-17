@@ -46,6 +46,7 @@
   @include minWidthXs {
     width: 120px;
     margin-bottom: 0;
+    line-height: 20px;
   }
 
   .en,
@@ -60,17 +61,21 @@
     font-style: normal;
     letter-spacing: 0.05em;
     font-size: rem(13);
+  
     @include minWidthXs {
       font-size: rem(16);
+     
     }
   }
 
   .ja {
-    font-size: rem(13);
+    font-size: rem(15);
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
     @include minWidthXs {
-      font-size: rem(13);
+      font-size: rem(16);
+      margin-right:0px;
     }
   }
 }
@@ -89,6 +94,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 400;
   @include minWidthXs {
     font-size: rem(14);
   }
@@ -144,9 +150,11 @@
   &:hover {
     //background: $latestJobMoreButtonBgColor;
     //color: $latestJobMoreButtonTextColor;
+    background: rgba(255, 255, 255, 0.4);
     cursor: pointer;
     .buttonText {
-      opacity: 0.6;
+      opacity: 1;
+  
       &::after {
         transform: translateX(30px);
         @include xs {
@@ -162,7 +170,7 @@
   @include xs {
     position: absolute;
     right: -52px;
-    bottom: 2px;
+    bottom: 20px;
     width: 55px;
   }
 
@@ -321,3 +329,5 @@
     //ul
 }
 //newInfoBox
+
+

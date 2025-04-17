@@ -108,8 +108,6 @@
                         </ul>
                     </div>
                 </div>
-
-
             </section>
 
             <section class="block-link">
@@ -128,7 +126,6 @@
                     </div>
 
                 </div>
-         
             </section>
 
 
@@ -159,32 +156,16 @@
                      </div>
 
                     <div class="flex-mobi">
-                        <a class="link-top three" href="">お問い合わせの前に</a>
+                        <a class="link-top three last" href="">詳しくはこちら</a>
                     </div>
                     <p class="note-last">お仕事お探しの方はこちら▲のバナーまたは、▼の求人検索からお探しください！</p>
                   </div>
-
-             
-
-
-
-
 
                 </div>
 
             </section>
    
 
-
-
-
-
-
-
-
-
-
-          
 
 
 

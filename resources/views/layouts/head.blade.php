@@ -26,6 +26,7 @@
 
     <link rel="icon" href="{{asset('favicon.ico')}}"/>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/woi8xvp.css">
     <link rel="stylesheet" href="https://use.typekit.net/uuo0bbf.css">
 

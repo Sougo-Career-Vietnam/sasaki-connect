@@ -1,7 +1,7 @@
 <div id="latestJob" class="latestJob">
     <div class="latestJobInner">
         <h2 class="latestJobTitle">
-            {{-- <span class="ja">新着の求人情報</span> --}}
+            <span class="ja">新着の求人情報</span>
             <span class="en">NEW JOBS</span>
         </h2>
 

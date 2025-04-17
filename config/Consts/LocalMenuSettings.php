@@ -7,31 +7,31 @@ class LocalMenuSettings
 
         [
             "text" => "会社案内",
-            "url" => "/reason",
+            "url" => "/company",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "サービス紹介",
-            "url" => "/workplace",
+            "url" => "/service",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "選ばれる理由",
-            "url" => "/webregist",
+            "url" => "/reason",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "ご依頼の流れ",
-            "url" => "/webregist",
+            "url" => "/flow",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "よくある質問",
-            "url" => "/webregist",
+            "url" => "/faq",
             "class" => "item-menu",
             "target" => "",
         ],
@@ -73,37 +73,38 @@ class LocalMenuSettings
 
         [
             "text" => "会社案内",
-            "url" => "/reason",
+            "url" => "/company",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "サービス紹介",
-            "url" => "/workplace",
+            "url" => "/service",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "選ばれる理由",
-            "url" => "/webregist",
+            "url" => "/reason",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "ご依頼の流れ",
-            "url" => "/webregist",
+            "url" => "/flow",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "よくある質問",
-            "url" => "/webregist",
+            "url" => "/faq",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "お問い合わせ",
-            "url" => "/webregist",
+            "url" => "/recruit/form",
+            
             "class" => "item-menu",
             "target" => "",
         ],
