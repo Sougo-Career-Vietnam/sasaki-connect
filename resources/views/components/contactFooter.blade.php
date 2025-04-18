@@ -1,4 +1,9 @@
+
+
+<link href="https://fonts.cdnfonts.com/css/tw-cen-mt" rel="stylesheet">
+
 <section id="contactFooter">
+
     <div class="info-contact">
         <div class="inner-contact">
            <div class="text-info">
@@ -8,7 +13,13 @@
            <a class="link-top page" href="">お問い合わせ・ご相談はこちら</a>
            <p class="text-03">お電話でのお問い合わせ</p>
            <p class="text-04">0120-228-272</p>
-
+           <p class="icon-info">
+            <picture>
+                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/icon_page_footer_sp.png')}}">
+                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/icon_page_footer_pc.png')}}">
+                <img class="sizes" src="{{asset('images/mvSlider/icon_page_footer_pc.png')}}" alt="">
+            </picture> 
+        </p>
         </div>
 
         <p class="contact-text">
@@ -18,6 +29,7 @@
                 <img class="sizes" src="{{asset('images/mvSlider/text_contact_pc.png')}}" alt="">
             </picture> 
         </p>
+
 
     </div>
     <div class="img-info">
