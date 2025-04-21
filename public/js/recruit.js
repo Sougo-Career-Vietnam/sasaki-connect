@@ -58,8 +58,7 @@ jQuery(function ($) {
 
 
 
-    $("#recruit  .heading-toggle").click(function () {
-        console.log ('dfsafasfds')
+    $(".heading-toggle").click(function () {
         $(this).next().slideToggle();
         $(this).toggleClass("open");
     }) 
