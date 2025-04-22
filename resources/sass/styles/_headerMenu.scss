@@ -195,6 +195,7 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       background: #EBF0F9;
       margin: 20px 0px;
       color: #2F2F2F;
+      font-size: 13px;
     }
     &:hover {
       opacity: .5;
@@ -309,6 +310,13 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
         height: 30px;
       }
      }
+     @include xs{ 
+      background: none;
+      color: #2F2F2F;
+      padding: 0px 0px 0px 0px !important;
+      text-align: center;
+      font-size: 13px;
+     }
   }
   .navItem.contact {
     background: #282828;
@@ -320,6 +328,13 @@ body.modalOn {/* モーダルON時にbody要素のスクロールを止める＆
       color: #000;
       opacity: 1;
     }
+    @include xs{ 
+      background: none;
+      color: #2F2F2F;
+      padding: 0px 0px 0px 0px !important;
+      text-align: center;
+      font-size: 13px;
+     }
   }
 
 

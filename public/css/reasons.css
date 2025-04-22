@@ -1,0 +1,441 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+body {
+    font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+#reasons {
+    font-size: 13px;
+    font-weight: 500;
+    color: #2C4198;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+
+#reasons * {
+    box-sizing: border-box;
+}
+
+#reasons a {
+    transition: opacity .3s;
+}
+
+#reasons a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+}
+
+#reasons a:hover {
+    text-decoration: none;
+}
+
+#reasons a:focus-visible {
+    outline: none;
+}
+
+#reasons img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#reasons .js-fadein {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+}
+
+#reasons .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+#reasons .pc-br {
+    display: none;
+}
+
+#reasons .sp-br {
+    display: inline;
+}
+
+#reasons .inner {
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* title */
+#reasons .section-title {
+    display: flex;
+    align-items: start;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 11px;
+    column-gap: 10px;
+}
+
+#reasons .section-title img {
+    max-width: 31px;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    top: 8.5px;
+    left: 2px;
+}
+
+
+/* strengths */
+#reasons #sc-strengths {
+    padding-block: 33px 10px;
+}
+
+#reasons #sc-strengths .coming-soon {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    min-height: 350px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#reasons #sc-strengths .text {
+    font-size: 13px;
+    line-height: 23.5px;
+    font-weight: 500;
+}
+
+
+/* benefits */
+#reasons #sc-benefits {
+    padding-block: 21px 20px;
+}
+
+#reasons #sc-benefits .section-title {
+    margin-bottom: 17px;
+}
+
+#reasons #sc-benefits .list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+#reasons #sc-benefits .group {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+#reasons #sc-benefits .group-head {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#reasons #sc-benefits .group-head .circle {
+    border-radius: 999px;
+    display: block;
+    flex-shrink: 0;
+    background-color: #2C4198;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 17px;
+    padding-top: 6px;
+    font-weight: 700;
+}
+
+#reasons #sc-benefits .group-head .circle .small {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#reasons #sc-benefits .group-head .circle .num {
+    font-size: 21px;
+    margin-left: -3px;
+}
+
+#reasons #sc-benefits .group-title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+#reasons #sc-benefits .group .img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#reasons #sc-benefits .group .text {
+    font-size: 13px;
+    line-height: 23.5px;
+    font-weight: 500;
+}
+
+
+/* feedbacks */
+#reasons #sc-feedbacks {
+    background-color: #EBF0F9;
+    padding-block: 26px 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+#reasons #sc-feedbacks .line {
+    position: absolute;
+    display: block;
+    width: 432px;
+    height: 141px;
+}
+
+#reasons #sc-feedbacks .line1 {
+    top: -21px;
+    left: -70px;
+}
+
+#reasons #sc-feedbacks .line2 {
+    bottom: 51px;
+    right: -166px;
+}
+
+#reasons #sc-feedbacks .feedbacks-inner {
+    position: relative;
+}
+
+#reasons #sc-feedbacks .feedbacks-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin-inline: auto;
+    width: fit-content;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #2C4198;
+    padding-bottom: 2px;
+}
+
+#reasons #sc-feedbacks .feedbacks-title img {
+    display: none;
+}
+
+#reasons #sc-feedbacks .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    padding-inline: 8px;
+}
+
+#reasons #sc-feedbacks .box {
+    background-color: #fff;
+    border: 1px solid #2C4198;
+    padding: 8px 14px 14px;
+}
+
+#reasons #sc-feedbacks .box .box-title {
+    text-align: center;
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #2C4198;
+    padding-bottom: 2px;
+}
+
+#reasons #sc-feedbacks .box .text {
+    font-size: 13px;
+    line-height: 23.5px;
+}
+
+
+
+@media print,
+screen and (min-width: 768px) {
+
+    #reasons .sp-br {
+        display: none;
+    }
+
+    #reasons .pc-br {
+        display: inline;
+    }
+
+    /* title */
+    #reasons .section-title {
+        font-size: 54px;
+        line-height: 74px;
+        margin-bottom: 30px;
+        column-gap: 20px;
+    }
+
+    #reasons .section-title img {
+        max-width: 92px;
+        top: 19px;
+        left: 0px;
+    }
+
+    /* strengths */
+    #reasons #sc-strengths {
+        padding-block: 116px 20px;
+    }
+
+    #reasons #sc-strengths .section-title {
+        margin-bottom: 35px;
+    }
+
+    #reasons #sc-strengths .coming-soon {
+        border-radius: 0;
+        font-size: 40px;
+        min-height: 625px;
+        margin-bottom: 40px;
+    }
+
+    #reasons #sc-strengths .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+
+    /* benefits */
+    #reasons #sc-benefits {
+        padding-block: 106px 80px;
+    }
+
+    #reasons #sc-benefits .section-title {
+        margin-bottom: 29px;
+    }
+
+    #reasons #sc-benefits .list {
+        row-gap: 64px;
+    }
+
+    #reasons #sc-benefits .group {
+        grid-template-columns: 400px 1fr;
+        row-gap: 14px;
+        column-gap: 40px;
+    }
+
+    #reasons #sc-benefits .group-head {
+        column-gap: 34px;
+        grid-column: 1 / -1;
+    }
+
+    #reasons #sc-benefits .group-head .circle {
+        width: 100px;
+        height: 100px;
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 17px;
+    }
+
+    #reasons #sc-benefits .group-head .circle .small {
+        font-size: 22px;
+    }
+
+    #reasons #sc-benefits .group-head .circle .num {
+        font-size: 42px;
+    }
+
+    #reasons #sc-benefits .group-title {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    #reasons #sc-benefits .group .img {
+        border-radius: 10px;
+    }
+
+    #reasons #sc-benefits .group .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    /* feedbacks */
+    #reasons #sc-feedbacks {
+        padding-block: 40px 75px;
+    }
+
+    #reasons #sc-feedbacks .line {
+        width: 860px;
+        height: 298px;
+    }
+
+    #reasons #sc-feedbacks .line1 {
+        display: none;
+    }
+
+    #reasons #sc-feedbacks .line2 {
+        bottom: 79px;
+        right: 22px;
+    }
+
+    #reasons #sc-feedbacks .feedbacks-title {
+        text-align: left;
+        font-size: 54px;
+        column-gap: 20px;
+        display: flex;
+        margin-inline: 0;
+        width: auto;
+        margin-bottom: 79px;
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #reasons #sc-feedbacks .feedbacks-title img {
+        display: block;
+        width: 100%;
+        object-fit: contain;
+        position: relative;
+        max-width: 92px;
+        top: 4px;
+        left: 0px;
+    }
+
+    #reasons #sc-feedbacks .list {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        padding-inline: 40px;
+    }
+
+    #reasons #sc-feedbacks .box {
+        padding: 33px 29px 28px;
+        border-radius: 10px;
+        border-width: 2px;
+    }
+
+    #reasons #sc-feedbacks .box .box-title {
+        margin-bottom: 26px;
+        font-size: 24px;
+        border-width: 2px;
+        padding-bottom: 9px;
+        padding-inline: 10px;
+    }
+
+    #reasons #sc-feedbacks .box .text {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+}
+
+@media print,
+screen and (max-width: 349px) {
+
+    /* benefits */
+    #reasons #sc-benefits .group-title br {
+        display: none;
+    }
+}

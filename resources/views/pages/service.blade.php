@@ -13,7 +13,7 @@
         <main id="main_wrap">
 
             <x-titlePage />
-          <div id="recruit">
+          <div id="service">
             <!-- banner-page -->
 
                <!-- content-main -->
@@ -31,14 +31,14 @@
       
                 </div>
         
-        </div>         
-          
+            </div>         
+            
+            <x-contactFooter />    
 
 
+        <script type="text/javascript" src="./js/recruit.js"></script> 
 
-    <script type="text/javascript" src="./js/recruit.js"></script> 
-
-          
+            
         </main>
 
         {{--html埋め込み部分 end--}}

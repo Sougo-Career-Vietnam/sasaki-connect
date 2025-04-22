@@ -1663,7 +1663,12 @@ body {
   width: calc(100%/3);
   text-align: center;
 }
-
+#faq .menu-link svg {
+  transition: 0.5s;
+}
+#faq .menu-link:hover svg {
+  transform: translateY(15px);
+}
 #faq .inner-list {
   display: flex;
   flex-direction: row;
@@ -1970,7 +1975,22 @@ body {
 }
 
 
-
+@media (max-width: 374px) {
+  #faq .title-flow {
+      font-size: 12px;
+      line-height: 16px;
+  }
+  #faq .box-main .list-info {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  #banner-page .title-banner {
+    position: absolute;
+    left: 6%;
+    bottom: unset;
+    top: 10%;
+  }
+}
 
 
 

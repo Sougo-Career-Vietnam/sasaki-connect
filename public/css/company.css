@@ -1,0 +1,749 @@
+/*------------------------------------------------------------
+common
+------------------------------------------------------------*/
+body {
+    font-family: 'Noto Sans JP', 'Century Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 游ゴシック体, YuGothic, "Yu Gothic Medium", 游ゴシック, 'Yu Gothic', メイリオ, Meiryo, sans-serif;
+}
+
+#company {
+    font-size: 13px;
+    font-weight: 500;
+    color: #2C4198;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+
+#company * {
+    box-sizing: border-box;
+}
+
+#company a {
+    transition: opacity .3s;
+}
+
+#company a[href^="tel:"] {
+    display: inline-block;
+    transition: none;
+}
+
+#company a:hover {
+    text-decoration: none;
+}
+
+#company a:focus-visible {
+    outline: none;
+}
+
+#company img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+#company .js-fadein {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+}
+
+#company .scroll-in {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+#company .pc-br {
+    display: none;
+}
+
+#company .sp-br {
+    display: inline;
+}
+
+#company .inner {
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* title */
+#company .section-title {
+    display: flex;
+    align-items: start;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 11px;
+    column-gap: 10px;
+}
+
+#company .section-title img {
+    max-width: 31px;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    top: 8.5px;
+    left: 2px;
+}
+
+
+/* endpoint */
+#company #sc-endpoint {
+    padding-block: 16px 0;
+}
+
+#company #sc-endpoint .endpoint-inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 14px 20px;
+    padding-inline: 17px;
+}
+
+#company #sc-endpoint .link {
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+    border-bottom: 1px solid #2C4198;
+    display: flex;
+    align-items: start;
+    column-gap: 5px;
+    color: #2C4198;
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 1;
+    padding: 1px 3px;
+    justify-content: space-between;
+}
+
+#company #sc-endpoint .link:hover {
+    opacity: 0.5;
+}
+
+#company #sc-endpoint .link::after {
+    content: '';
+    display: block;
+    background-image: url('data:image/svg+xml,%3Csvg%20width%3D%2220%22%20height%3D%2213%22%20viewBox%3D%220%200%2020%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m2%202.5%208%208%208-8%22%20stroke%3D%22%232C4198%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 6px;
+    position: relative;
+    top: 8px;
+    right: -2px;
+    transition: all 0.2s;
+}
+
+#company #sc-endpoint .link:hover::after {
+    top: 12px;
+}
+
+
+/* mission */
+#company #sc-mission {
+    padding-block: 23px 0;
+}
+
+#company #sc-mission .mission-inner {
+    padding-inline: 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    margin-bottom: 45px;
+}
+
+#company #sc-mission .content .title {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+#company #sc-mission .content .text {
+    font-size: 13px;
+    line-height: 23.5px;
+}
+
+#company #sc-mission .img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#company #sc-mission .list {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 35px;
+}
+
+#company #sc-mission .list .item {
+    border-radius: 5px;
+    background-color: #EBF0F9;
+    position: relative;
+    padding: 29px 13px 20px;
+}
+
+#company #sc-mission .list .item .tag {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #2C4198;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    min-width: 230px;
+    text-align: center;
+    padding: 5px 10px 6px;
+}
+
+#company #sc-mission .list .item .item-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+#company #sc-mission .list .item .item-text {
+    font-size: 13px;
+    line-height: 23.5px;
+}
+
+
+/* message */
+#company #sc-message {
+    padding-block: 36px 10px;
+}
+
+#company #sc-message .section-title {
+    margin-bottom: 9px;
+}
+
+#company #sc-message .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px 5px;
+}
+
+#company #sc-message .content {
+    grid-column: 1 / -1;
+}
+
+#company #sc-message .content .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#company #sc-message .content .text {
+    font-size: 13px;
+    line-height: 23.5px;
+}
+
+#company #sc-message .content .text span {
+    font-weight: 700;
+}
+
+#company #sc-message .img {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 10px;
+    max-width: 111px;
+}
+
+#company #sc-message .sign {
+    text-align: right;
+    font-size: 13px;
+    line-height: 18.5px;
+    align-self: self-end;
+    margin-right: 11px;
+}
+
+
+/* thoughts */
+#company #sc-thoughts {
+    padding-block: 41px 0;
+}
+
+#company #sc-thoughts .section-title {
+    margin-bottom: 12px;
+}
+
+#company #sc-thoughts .title {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+#company #sc-thoughts .text {
+    font-size: 13px;
+    line-height: 23.5px;
+}
+
+#company #sc-thoughts .aim {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    margin-bottom: 19px;
+}
+
+#company #sc-thoughts .aim .title {
+    margin-bottom: 11px;
+}
+
+#company #sc-thoughts .connect .title {
+    margin-bottom: 6px;
+}
+
+#company #sc-thoughts .connect .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 25px;
+    gap: 7px;
+    margin-top: 10px;
+}
+
+#company #sc-thoughts .connect .list .item {
+    background-color: #2C4198;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 68px 1fr;
+    padding-block: 12px 16px;
+    row-gap: 1px;
+}
+
+#company #sc-thoughts .connect .list .item-img {
+    max-width: 68px;
+    margin: auto;
+}
+
+#company #sc-thoughts .connect .list .item:nth-child(even) .item-img {
+    max-width: 49px;
+}
+
+#company #sc-thoughts .connect .list .item-title {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: -0.5px;
+}
+
+#company #sc-thoughts .connect .list .item-text {
+    font-size: 8px;
+    font-weight: 700;
+}
+
+
+/* overview */
+#company #sc-overview {
+    padding-block: 0 10px;
+}
+
+#company #sc-overview .section-title {
+    margin-bottom: 6px;
+    margin-top: 1.5px;
+}
+
+#company #sc-overview .overview-inner {
+    border-top: 1px dotted #2C4198;
+    border-bottom: 1px dotted #2C4198;
+    max-width: 1050px;
+    margin-left: auto;
+}
+
+#company #sc-overview .line {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    padding: 7px 15px;
+    column-gap: 10px;
+    align-items: baseline;
+}
+
+#company #sc-overview .line+.line {
+    border-top: 1px dotted #2C4198;
+}
+
+#company #sc-overview .line .title {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 23.5px;
+}
+
+#company #sc-overview .line .text {
+    font-size: 13px;
+    line-height: 23.5px;
+}
+
+
+/* offices */
+#company #sc-offices {
+    padding-block: 53px 40px;
+}
+
+#company #sc-offices .section-title {
+    margin-bottom: 10px;
+}
+
+#company #sc-offices .offices-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 18px;
+}
+
+#company #sc-offices .group .title {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+#company #sc-offices .group .text {
+    font-size: 13px;
+    line-height: 23.5px;
+    margin-bottom: 5px;
+}
+
+#company #sc-offices .group .box {
+    border-radius: 5px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    min-height: 190px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    padding: 21px 26px;
+}
+
+
+
+@media print,
+screen and (min-width: 768px) {
+
+    #company .sp-br {
+        display: none;
+    }
+
+    #company .pc-br {
+        display: inline;
+    }
+
+    /* title */
+    #company .section-title {
+        font-size: 54px;
+        line-height: 74px;
+        margin-bottom: 30px;
+        column-gap: 20px;
+    }
+
+    #company .section-title img {
+        max-width: 92px;
+        top: 19px;
+        left: 0px;
+    }
+
+
+    /* endpoint */
+    #company #sc-endpoint {
+        padding-block: 69px 30px;
+    }
+
+    #company #sc-endpoint .endpoint-inner {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px 90px;
+        padding-inline: 86px;
+    }
+
+    #company #sc-endpoint .link {
+        font-size: 24px;
+        column-gap: 5px;
+        padding: 1px 6px 20px;
+        border-width: 2px;
+    }
+
+    #company #sc-endpoint .link::after {
+        width: 20px;
+        height: 16px;
+        top: 14px;
+        right: 8px;
+    }
+
+    #company #sc-endpoint .link:hover::after {
+        top: 28px;
+    }
+
+
+    /* mission */
+    #company #sc-mission {
+        padding-block: 113px 20px;
+    }
+
+    #company #sc-mission .mission-inner {
+        grid-template-columns: 1fr 53.2%;
+        padding-inline: max(calc((100% - 1200px) / 2), 12px) 0;
+        column-gap: 60px;
+        align-items: start;
+        margin-bottom: 101px;
+    }
+
+    #company #sc-mission .section-title {
+        margin-top: -16px;
+        margin-bottom: 67px;
+    }
+
+    #company #sc-mission .content .title {
+        font-size: 30px;
+        margin-bottom: 53px;
+        line-height: 42px;
+    }
+
+    #company #sc-mission .content .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #company #sc-mission .content .text+.text {
+        margin-top: 32px;
+    }
+
+    #company #sc-mission .img {
+        border-radius: 10px;
+    }
+
+    #company #sc-mission .list {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 32px;
+    }
+
+    #company #sc-mission .list .item {
+        border-radius: 10px;
+        padding: 50px 42px 47px;
+    }
+
+    #company #sc-mission .list .item .tag {
+        top: -41px;
+        border-radius: 10px;
+        font-size: 24px;
+        min-width: 400px;
+        padding: 11px 10px;
+    }
+
+    #company #sc-mission .list .item .item-title {
+        font-size: 24px;
+        margin-bottom: 13px;
+    }
+
+    #company #sc-mission .list .item .item-text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+
+    /* message */
+    #company #sc-message {
+        padding-block: 122px 40px;
+    }
+
+    #company #sc-message .section-title {
+        margin-bottom: 45px;
+    }
+
+    #company #sc-message .grid {
+        grid-template-columns: 360px 1fr;
+        grid-template-rows: auto min-content;
+        gap: 1px 80px;
+    }
+
+    #company #sc-message .content {
+        grid-column: auto;
+        margin-top: -3.5px;
+    }
+
+    #company #sc-message .content .title {
+        font-size: 30px;
+        margin-bottom: 26.5px;
+    }
+
+    #company #sc-message .content .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #company #sc-message .img {
+        border-radius: 10px;
+        margin-left: 0;
+        max-width: 100%;
+        grid-row: 1 / span 2;
+    }
+
+    #company #sc-message .sign {
+        font-size: 18px;
+        line-height: 25px;
+        align-self: self-start;
+        margin-right: 4px;
+        font-weight: 700;
+    }
+
+
+    /* thoughts */
+    #company #sc-thoughts {
+        padding-block: 144px 0;
+    }
+
+    #company #sc-thoughts .section-title {
+        margin-bottom: 42px;
+    }
+
+    #company #sc-thoughts .title {
+        font-size: 30px;
+        line-height: 47px;
+    }
+
+    #company #sc-thoughts .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #company #sc-thoughts .aim {
+        grid-template-columns: 1fr 40%;
+        align-items: start;
+        column-gap: 30px;
+        margin-bottom: 58.5px;
+    }
+
+    #company #sc-thoughts .aim .title {
+        margin-bottom: 27px;
+    }
+
+    #company #sc-thoughts .aim .text {
+        max-width: 96.5%;
+    }
+
+    #company #sc-thoughts .aim .aim-img {
+        position: relative;
+        top: 3px;
+    }
+
+    #company #sc-thoughts .connect .title {
+        margin-bottom: 16px;
+    }
+
+    #company #sc-thoughts .connect .list {
+        grid-template-columns: repeat(6, 1fr);
+        padding-inline: 0;
+        gap: 12px;
+        margin-top: 32px;
+    }
+
+    #company #sc-thoughts .connect .list .item {
+        grid-template-rows: 136px 1fr;
+        padding-block: 24px 39px;
+        row-gap: 10px;
+    }
+
+    #company #sc-thoughts .connect .list .item-img {
+        max-width: 136px;
+    }
+
+    #company #sc-thoughts .connect .list .item:nth-child(even) .item-img {
+        max-width: 96.5px;
+    }
+
+    #company #sc-thoughts .connect .list .item-title {
+        font-size: 20px;
+    }
+
+    #company #sc-thoughts .connect .list .item-text {
+        font-size: 12px;
+    }
+
+
+    /* overview */
+    #company #sc-overview .bg {
+        max-width: 940px;
+        margin-inline: auto;
+        position: relative;
+        left: 24px;
+    }
+
+    #company #sc-overview .section-title {
+        margin-bottom: 45px;
+        margin-top: 45px;
+    }
+
+    #company #sc-overview .line {
+        grid-template-columns: 200px 1fr;
+        padding: 18px 100px;
+        column-gap: 10px;
+    }
+
+    #company #sc-overview .line .title {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    #company #sc-overview .line .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+
+    /* offices */
+    #company #sc-offices {
+        padding-block: 115px 150px;
+    }
+
+    #company #sc-offices .section-title {
+        margin-bottom: 67px;
+    }
+
+    #company #sc-offices .offices-inner {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 32px;
+    }
+
+    #company #sc-offices .group .title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    #company #sc-offices .group .text {
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+
+    #company #sc-offices .group .box {
+        border-radius: 0;
+        min-height: 340px;
+        font-size: 24px;
+        padding: 21px 26px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media print,
+screen and (max-width: 349px) {
+
+    /* message */
+    #company #sc-message .img {
+        margin-left: 0;
+    }
+
+    #company #sc-message .sign {
+        margin-right: 0;
+    }
+
+    /* thoughts */
+    #company #sc-thoughts .connect .list {
+        padding-inline: 0;
+    }
+
+    /* overview */
+    #company #sc-overview .line {
+        grid-template-columns: 90px 1fr;
+    }
+}
