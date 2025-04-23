@@ -12,10 +12,13 @@ body {
     overflow: hidden;
     background: #fff;
     position: relative;
+    line-height: 1.6;
 }
 
 #reasons * {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 #reasons a {
@@ -264,7 +267,10 @@ body {
 
 @media print,
 screen and (min-width: 768px) {
-
+    #reasons .inner {
+        max-width: 1240px;
+        padding: 0px 20px;
+    }
     #reasons .sp-br {
         display: none;
     }
@@ -366,6 +372,7 @@ screen and (min-width: 768px) {
     /* feedbacks */
     #reasons #sc-feedbacks {
         padding-block: 40px 75px;
+        margin-bottom: 30px;
     }
 
     #reasons #sc-feedbacks .line {

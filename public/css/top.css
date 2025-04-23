@@ -1305,8 +1305,8 @@ body {
 #contactFooter .contact-text {
   z-index: 99;
   position: absolute;
-  bottom: -62px;
-  right: 50px;
+  bottom: -28px;
+  right: 49px;
 }
 #contactFooter .icon-info {
   position: absolute;

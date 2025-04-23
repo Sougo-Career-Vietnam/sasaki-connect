@@ -11,7 +11,7 @@
         <link rel="stylesheet" media="all" href="./css/reasons.css"/>
         <main id="main_wrap">
 
-        
+            <x-titlePage />
             <div id="reasons" class="reasons">
                 <!-- strengths -->
                 <section id="sc-strengths">

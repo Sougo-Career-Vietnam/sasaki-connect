@@ -12,10 +12,13 @@ body {
     overflow: hidden;
     background: #fff;
     position: relative;
+    line-height: 1.6;
 }
 
 #company * {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 #company a {
@@ -420,7 +423,10 @@ body {
 
 @media print,
 screen and (min-width: 768px) {
-
+    #company .inner {
+        max-width: 1240px;
+        padding: 0px 20px;
+    }
     #company .sp-br {
         display: none;
     }

@@ -12,10 +12,13 @@ body {
     overflow: hidden;
     background: #fff;
     position: relative;
+    line-height: 1.6;
 }
 
 #service * {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 #service a {
@@ -760,7 +763,10 @@ body {
 
 @media print,
 screen and (min-width: 768px) {
-
+    #service .inner {
+        max-width: 1240px;
+        padding: 0px 20px;
+    }
     #service .sp-br {
         display: none;
     }
@@ -1200,6 +1206,31 @@ screen and (min-width: 768px) {
     /* recruit */
     #service #sc-recruit {
         padding-block: 116px 69px;
+    }
+
+
+    #service #sc-recruit .text {
+        position: relative;
+    }
+    #service #sc-recruit .text::after {
+        position: absolute;
+        content: "";
+        height: 30px;
+        border-left: 1px solid #2C4198;
+        transform: rotate(-45deg);
+        top: 2px;
+        left: 9px;
+       
+    }
+    #service #sc-recruit .text::before {
+        position: absolute;
+        content: "";
+        height: 30px;
+        border-left: 1px solid #2C4198;
+        transform: rotate(45deg);
+        top: 0px;
+        right: 11px;
+       
     }
 
     #service #sc-recruit .recruit-inner {

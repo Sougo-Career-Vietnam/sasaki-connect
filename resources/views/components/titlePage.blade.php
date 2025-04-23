@@ -12,7 +12,7 @@ $pageTitles = [
     ],
     'reason' => [
         'jp' => '選ばれる理由',
-        'en' => 'Why Choose Us',
+        'en' => 'Reason for business',
     ],
     'flow' => [
         'jp' => 'ご利用の流れ',
