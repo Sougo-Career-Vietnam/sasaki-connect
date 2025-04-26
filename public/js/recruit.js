@@ -48,7 +48,7 @@ jQuery(function ($) {
             var url = $(this).attr('href');
             var dest = url.split('#');var target = dest[1];
             var target_offset = $('#'+target).offset();
-            var target_top = target_offset.top;
+            var target_top = target_offset.top - 50;
             $('html, body').animate({scrollTop:target_top}, 500, 'swing');
             return false;});
     });

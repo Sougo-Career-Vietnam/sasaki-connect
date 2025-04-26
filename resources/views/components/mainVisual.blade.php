@@ -18,7 +18,104 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
  <link rel="stylesheet" media="all" href="./css/top.css"/>
 @if(($sliderImgList['pc'] && count($sliderImgList['pc']) > 0) || ($sliderImgList['sp'] && count($sliderImgList['sp']) > 0))
 
+<style>
 
+.swiper-wrapper {
+    position: relative;
+    z-index: 100;
+}
+
+.swiper-wrapper .img-icon02 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    clip-path: inset(0 100% 0 0);
+    animation: drawLines 4s forwards;
+    animation-delay: 1s
+}
+
+
+@keyframes drawLines {
+    from {
+        clip-path: inset(100% 0 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.swiper-wrapper .img-icon01 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    clip-path: circle(0% at 50% 50%);
+    animation: drawCircle2 2s ease-out forwards;
+}
+
+
+
+@keyframes drawCircle2 {
+    from {
+        clip-path: circle(0% at 50% 50%);
+    }
+
+    to {
+        clip-path: circle(150% at 50% 50%);
+    }
+} 
+
+#top .swiper-wrapper .box-text {
+     opacity: 0; /* Ban đầu ẩn chữ */
+      animation: fadeIn 4s ease-in forwards; /* Hiệu ứng hiện chữ */
+      animation-delay: 3s; /* Chờ 1 giây sau khi ảnh nền xuất hiện */
+     z-index: 9;
+}
+
+@keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px); /* Hiệu ứng trượt lên */
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+
+
+
+
+/* .swiper-wrapper .img-icon03 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    clip-path: circle(0% at 50% 50%);
+    animation: drawCircle3 2s ease-out forwards;
+    animation-delay: 5s
+ 
+}
+
+@keyframes drawLines3 {
+    from {
+        clip-path: circle(0% at 50% 50%);
+    }
+
+    to {
+        clip-path: circle(150% at 50% 50%);
+    }
+} */
+</style>
 
 <div id="mvSlider">
     <div class="mvWrapper">
@@ -34,22 +131,49 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                     <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/'. $imgListPc[0])}}">
                     <img class="mvPicture" src="{{asset('images/mvSlider/'. $imgListPc[0])}}" alt="<?php echo $mvCatchCopy; ?>">
                 </picture>
+
+               
             </div>
             <?php elseif(count($imgListPc) > 1): ?>
             <div class="mvMultiple js-mvSlider">
                 <div class="swiper-wrapper">
                     <?php foreach($imgListPc as $key => $imgName): ?>
-                    <div class="swiper-slide">
+                        <div class="swiper-slide">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/'. $imgListSp[$key])}} 2x">
+                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/'. $imgName)}} 2x">
+                                <img class="mvPicture" src="{{asset('images/mvSlider/'. $imgName)}}" alt="<?php echo $mvCatchCopy; ?>">
+                            </picture>
+                        </div>
                         <div class="box-text">
                             <h1 class="title-main">人が、<br>現場と経営を<br>強くする</h1>
                             <p class="note-banner">SASAKI CONNECTは、<br>製造現場における人と信頼をつなぐ人材会社です</p>
-                        </div>
-                        <picture>
-                            <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/'. $imgListSp[$key])}} 2x">
-                            <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/'. $imgName)}} 2x">
-                            <img class="mvPicture" src="{{asset('images/mvSlider/'. $imgName)}}" alt="<?php echo $mvCatchCopy; ?>">
-                        </picture>
-                    </div>
+                        </div> 
+           
+                        {{-- <p class="img-icon01">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01a_sp.png')}}">
+                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}">
+                                <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}" alt="">
+                            </picture>
+                        </p> --}}
+                        <p class="img-icon02">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01b_sp.png')}}">
+                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01b_pc.png')}}">
+                                <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01b_pc.png')}}" alt="">
+                            </picture>
+                        </p>
+
+                        {{-- <p class="img-icon03">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01c_sp.png')}}">
+                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01c_pc.png')}}">
+                                <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01c_pc.png')}}" alt="">
+                            </picture>
+                        </p> --}}
+                          
+
                     <?php endforeach; ?>
                 </div>
             </div>

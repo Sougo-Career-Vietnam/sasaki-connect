@@ -41,6 +41,29 @@ jQuery(function ($) {
         });
     });
 
+    // line
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            $('#company #sc-overview .bg').each(function () {
+                var ptop = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > ptop - windowHeight + 100) {
+                    $(this).addClass('animate');
+                }
+            });
+        });
+
+        $('#company #sc-overview .bg').each(function () {
+            var ptop = $(this).offset().top;
+            var firstView = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (firstView > ptop - windowHeight) {
+                $(this).addClass('animate');
+            }
+        });
+    });
+
 
     //scroll
     $(function () {

@@ -8,7 +8,7 @@ $pageTitles = [
     ],
     'service' => [
         'jp' => 'サービス',
-        'en' => 'Service',
+        'en' => 'Service for business',
     ],
     'reason' => [
         'jp' => '選ばれる理由',

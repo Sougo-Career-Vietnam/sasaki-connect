@@ -277,8 +277,8 @@
             <x-contactFooter />    
                
           
-            <script type="text/javascript" src="./js/recruit.js"></script> 
-
+            {{-- <script type="text/javascript" src="./js/recruit.js"></script>  --}}
+            <script type="text/javascript" src="./js/company.js"></script> 
           
         </main>
 

@@ -343,6 +343,14 @@ body {
     padding-block: 0 10px;
 }
 
+#company #sc-overview .bg {
+    clip-path: inset(0 100% 0 0);
+}
+
+#company #sc-overview .bg.animate {
+    animation: drawLines 2s forwards;
+}
+
 #company #sc-overview .section-title {
     margin-bottom: 6px;
     margin-top: 1.5px;
@@ -423,10 +431,7 @@ body {
 
 @media print,
 screen and (min-width: 768px) {
-    #company .inner {
-        max-width: 1240px;
-        padding: 0px 20px;
-    }
+
     #company .sp-br {
         display: none;
     }
@@ -751,5 +756,15 @@ screen and (max-width: 349px) {
     /* overview */
     #company #sc-overview .line {
         grid-template-columns: 90px 1fr;
+    }
+}
+
+@keyframes drawLines {
+    from {
+        clip-path: inset(100% 0 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
     }
 }
