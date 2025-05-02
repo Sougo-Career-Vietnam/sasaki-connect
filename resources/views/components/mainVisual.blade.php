@@ -66,7 +66,6 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
     z-index: 2;
     clip-path: circle(0% at 50% 50%);
     animation: drawCircle2 4s ease-out forwards;
-  
 }
 .swiper-wrapper .img-icon01 img {
     width: 100%;
@@ -87,10 +86,25 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
     }
 } 
 
+
+.box-circle {
+    width: clamp(300px, 30vw, 540px);
+    height: clamp(300px, 30vw, 540px);
+    background: rgba(235, 240, 249, 0.1);
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    z-index: 2;
+    clip-path: circle(0% at 50% 50%);
+    animation: drawCircle2 4s ease-out forwards
+}
+
+
 #top .swiper-wrapper .box-text {
      opacity: 0; 
       animation: fadeIn 4s ease-in forwards; 
-      animation-delay: 3s; 
+      animation-delay:1s; 
      z-index: 9;
 }
 
@@ -110,6 +124,16 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 }
 
 
+
+@media print,
+screen and (max-width: 786px) {
+    .swiper-wrapper .img-icon01,.box-circle {
+        display: none
+    }
+    .swiper-wrapper .img-icon02,.img-bg {
+        display: none
+    }
+}
 
 
 </style>
@@ -141,6 +165,18 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                                 <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/'. $imgName)}} 2x">
                                 <img class="mvPicture" src="{{asset('images/mvSlider/'. $imgName)}}" alt="<?php echo $mvCatchCopy; ?>">
                             </picture>
+                            <?php if($key == 0): // Chỉ in img-icon01 ở slide đầu tiên ?>
+                              <p class="img-icon01">
+                                <picture>
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}">
+                                    <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}" alt="">
+                                </picture>
+                              </p>
+                        
+                             <?php endif; ?>
+                             <p class="box-circle">
+
+                             </p>
                         </div>
                         <div class="box-text">
                             <h1 class="title-main">人が、<br>現場と経営を<br>強くする</h1>
@@ -154,18 +190,12 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                             </picture>
                         </p>
            
-                        <?php if($key == 0): // Chỉ in img-icon01 ở slide đầu tiên ?>
-                            <p class="img-icon01 is-animated">
-                                <picture>
-                                    <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01a_sp.png')}}">
-                                    <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}">
-                                    <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}" alt="">
-                                </picture>
-                            </p>
-                        <?php endif; ?>
+               
+ 
+
+
                         <p class="img-icon02">
                             <picture>
-                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01b_sp.png')}}">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01b_pc.png')}}">
                                 <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01b_pc.png')}}" alt="">
                             </picture>

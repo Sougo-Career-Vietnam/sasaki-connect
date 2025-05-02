@@ -1695,7 +1695,7 @@ body {
   transition: 0.5s;
 }
 #faq .menu-link:hover svg {
-  transform: translateY(15px);
+  transform: translateY(12px);
 }
 #faq .inner-list {
   display: flex;
@@ -1959,7 +1959,9 @@ body {
     line-height: 30px;
     margin-bottom: 8px;
   }
-
+  #faq .menu-link:hover svg {
+    transform: translateY(10px);
+  }
   #faq .box-main .list-info {
     font-size: 25px;
     margin-right: 20px;

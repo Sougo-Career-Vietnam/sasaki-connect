@@ -1286,7 +1286,7 @@ screen and (min-width: 768px) {
 }
 
 @media print,
-screen and (max-width: 349px) {
+screen and (max-width: 361px) {
 
     /* endpoint */
     #service #sc-endpoint .endpoint-inner {
@@ -1315,6 +1315,16 @@ screen and (max-width: 349px) {
     /* seekers */
     #service #sc-seekers .box {
         padding: 10px 15px 15px;
+    }
+    #service .section-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #service #sc-recruit .box .box-title {
+        font-size: 16px;
+    }
+    #service #sc-problems .title {
+        font-size: 14px;
     }
 }
 
