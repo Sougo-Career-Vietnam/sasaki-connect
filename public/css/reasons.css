@@ -264,9 +264,23 @@ body {
 }
 
 
+#reason .span-es {
+    font-size: 19px;
+    position: relative;
+    top: 2px
+}
+  
+  
+
+
 
 @media print,
 screen and (min-width: 768px) {
+    #reasons  .span-es {
+        font-size: 29px;
+        position: relative;
+        top: 2px
+      }
     #reasons .inner {
         max-width: 1240px;
         padding: 0px 20px;

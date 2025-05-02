@@ -39,7 +39,7 @@
                             <picture>
                                 <source media="(max-width: 767px)" srcset="{{asset('images/service/service_manufacture_sp.png')}}">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/service/service_manufacture_pc.png')}}">
-                                <img class="sizes" src="{{asset('images/service/service_manufacture_pc.png')}}" alt="">
+                                <img class="sizes" src="{{asset('images/service/service_manufacture_pc.png')}}" alt="社員のイラスト">
                             </picture>
                         </div>
                         <ul class="list">
@@ -79,14 +79,14 @@
                         <p class="text">特定の業務のみを<br />委託したい</p>
                         <p class="text">新規採用に不安がある</p>
                         <p class="text">専門職のスキルを<br />持った人材が必要</p>
-                        <p class="text">技術者養成の時間と<br />経費がない</p>
                         <p class="text text-fit">生産設備の稼働率を<br />高めたい・扱う人がいない</p>
+                        <p class="text">技術者養成の時間と<br />経費がない</p>
                     </div>
                     <div class="img">
                         <picture>
                             <source media="(max-width: 767px)" srcset="{{asset('images/service/service_problems_sp.png')}}">
                             <source media="(min-width: 768px)" srcset="{{asset('images/service/service_problems_pc.png')}}">
-                            <img class="sizes" src="{{asset('images/service/service_problems_pc.png')}}" alt="">
+                            <img class="sizes" src="{{asset('images/service/service_problems_pc.png')}}" alt="社員のイラスト">
                         </picture>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/service/service_particular_01_sp.jpg')}}">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/service/service_particular_01_pc.jpg')}}">
-                                        <img class="sizes" src="{{asset('images/service/service_particular_01_pc.jpg')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/service/service_particular_01_pc.jpg')}}" alt="半導体製造">
                                     </picture>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/service/service_particular_02_sp.jpg')}}">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/service/service_particular_02_pc.jpg')}}">
-                                        <img class="sizes" src="{{asset('images/service/service_particular_02_pc.jpg')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/service/service_particular_02_pc.jpg')}}" alt="ロケットの写真">
                                     </picture>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/service/service_particular_03_sp.jpg')}}">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/service/service_particular_03_pc.jpg')}}">
-                                        <img class="sizes" src="{{asset('images/service/service_particular_03_pc.jpg')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/service/service_particular_03_pc.jpg')}}" alt="製造の様子">
                                     </picture>
                                 </div>
                             </div>
@@ -227,7 +227,7 @@
                         <div class="img">
                             <picture>
                                 <source srcset="{{asset('images/service/service_contact.jpg')}}">
-                                <img class="sizes" src="{{asset('images/service/service_contact.jpg')}}" alt="">
+                                <img class="sizes" src="{{asset('images/service/service_contact.jpg')}}" alt="採用担当者">
                             </picture>
                         </div>
                         <dl class="content">
@@ -263,7 +263,7 @@
                         <picture>
                             <source media="(max-width: 767px)" srcset="{{asset('images/service/service_seekers_01_sp.jpg')}}">
                             <source media="(min-width: 768px)" srcset="{{asset('images/service/service_seekers_01_pc.jpg')}}">
-                            <img class="sizes" src="{{asset('images/service/service_seekers_01_pc.jpg')}}" alt="">
+                            <img class="sizes" src="{{asset('images/service/service_seekers_01_pc.jpg')}}" alt="男性社員">
                         </picture>
                     </div>
                     <div class="box">
@@ -294,7 +294,7 @@
                             <picture>
                                 <source media="(max-width: 767px)" srcset="{{asset('images/service/service_recruit_sp.jpg')}}">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/service/service_recruit_pc.jpg')}}">
-                                <img class="sizes" src="{{asset('images/service/service_recruit_pc.jpg')}}" alt="">
+                                <img class="sizes" src="{{asset('images/service/service_recruit_pc.jpg')}}" alt="笑顔の男性社員と女性社員">
                             </picture>
                         </div>
                         <a href="#" class="link">詳しくはこちら</a>

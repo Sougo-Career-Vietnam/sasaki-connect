@@ -25,16 +25,26 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
     z-index: 100;
 }
 
+.img-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+}
+
 .swiper-wrapper .img-icon02 {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
     clip-path: inset(0 100% 0 0);
     animation: drawLines 4s forwards;
-    animation-delay: 1s
+    animation-delay: 2s
 }
 
 
@@ -49,14 +59,20 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 }
 
 .swiper-wrapper .img-icon01 {
+    width: 52.5%;
+    position: absolute;
+    top: -11.5%;
+    right: -2.9%;
+    z-index: 2;
+    clip-path: circle(0% at 50% 50%);
+    animation: drawCircle2 4s ease-out forwards;
+  
+}
+.swiper-wrapper .img-icon01 img {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    clip-path: circle(0% at 50% 50%);
-    animation: drawCircle2 2s ease-out forwards;
+    object-fit: cover;
+    min-width: auto !important;
 }
 
 
@@ -72,16 +88,16 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 } 
 
 #top .swiper-wrapper .box-text {
-     opacity: 0; /* Ban đầu ẩn chữ */
-      animation: fadeIn 4s ease-in forwards; /* Hiệu ứng hiện chữ */
-      animation-delay: 3s; /* Chờ 1 giây sau khi ảnh nền xuất hiện */
+     opacity: 0; 
+      animation: fadeIn 4s ease-in forwards; 
+      animation-delay: 3s; 
      z-index: 9;
 }
 
 @keyframes fadeIn {
       from {
         opacity: 0;
-        transform: translateY(20px); /* Hiệu ứng trượt lên */
+        transform: translateY(20px); 
       }
       to {
         opacity: 1;
@@ -89,32 +105,13 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
       }
 }
 
-
-
-
-
-/* .swiper-wrapper .img-icon03 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    clip-path: circle(0% at 50% 50%);
-    animation: drawCircle3 2s ease-out forwards;
-    animation-delay: 5s
- 
+.swiper-slide {
+    z-index: 2;
 }
 
-@keyframes drawLines3 {
-    from {
-        clip-path: circle(0% at 50% 50%);
-    }
 
-    to {
-        clip-path: circle(150% at 50% 50%);
-    }
-} */
+
+
 </style>
 
 <div id="mvSlider">
@@ -149,14 +146,23 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                             <h1 class="title-main">人が、<br>現場と経営を<br>強くする</h1>
                             <p class="note-banner">SASAKI CONNECTは、<br>製造現場における人と信頼をつなぐ人材会社です</p>
                         </div> 
-           
-                        {{-- <p class="img-icon01">
+
+                        <p class="img-bg">
                             <picture>
-                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01a_sp.png')}}">
-                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}">
-                                <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}" alt="">
+                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/bg_main_pc.png')}}">
+                                <img class="mvPicture" src="{{asset('images/mvSlider/bg_main_pc.png')}}" alt="">
                             </picture>
-                        </p> --}}
+                        </p>
+           
+                        <?php if($key == 0): // Chỉ in img-icon01 ở slide đầu tiên ?>
+                            <p class="img-icon01 is-animated">
+                                <picture>
+                                    <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01a_sp.png')}}">
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}">
+                                    <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}" alt="">
+                                </picture>
+                            </p>
+                        <?php endif; ?>
                         <p class="img-icon02">
                             <picture>
                                 <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01b_sp.png')}}">
@@ -165,13 +171,7 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
                             </picture>
                         </p>
 
-                        {{-- <p class="img-icon03">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/top_img_main_01c_sp.png')}}">
-                                <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01c_pc.png')}}">
-                                <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01c_pc.png')}}" alt="">
-                            </picture>
-                        </p> --}}
+   
                           
 
                     <?php endforeach; ?>

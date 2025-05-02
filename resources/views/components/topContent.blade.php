@@ -25,7 +25,7 @@
                     <picture>
                         <source media="(max-width: 767px)" srcset="{{asset('images/top/top_img_01_sp.png')}} 2x">
                         <source media="(min-width: 768px)" srcset="{{asset('images/top/top_img_01_pc.png')}} 2x">
-                        <img class="sizes" src="{{asset('images/top/top_img_01_pc.png')}}" alt="">
+                        <img class="sizes" src="{{asset('images/top/top_img_01_pc.png')}}" alt="現場も経営も人が強くする">
                     </picture>  
                  </div>
                  <div class="img-icon">
@@ -56,7 +56,7 @@
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="{{asset('images/top/top_img_02_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/top/top_img_02_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/top/top_img_02_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/top/top_img_02_pc.png')}}" alt="サービスを紹介する社員">
                                 </picture> 
                             </div>
                          </li>
@@ -72,7 +72,7 @@
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="{{asset('images/top/top_img_03_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/top/top_img_03_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/top/top_img_03_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/top/top_img_03_pc.png')}}" alt="説明する社員">
                                 </picture> 
                             </div>
                          </li>
@@ -89,7 +89,7 @@
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="{{asset('images/top/top_img_04_sp.png')}} 2x">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/top/top_img_04_pc.png')}} 2x">
-                                    <img class="sizes" src="{{asset('images/top/top_img_04_pc.png')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/top/top_img_04_pc.png')}}" alt="ご利用の流れ">
                                 </picture> 
                             </div>
                          </li>
@@ -98,11 +98,11 @@
                         <p class="title-note">お客様の声</p>
                         <ul class="list-note flex">
                             <li class="item-note">
-                                <h4 class="h4-note">製造業TE社（長野県）採用担当T様</h4>
+                                <h4 class="h4-note">製造業<span class="span-es">TE</span>社（長野県）採用担当T様</h4>
                                 <p class="p-note">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                             </li>
                             <li class="item-note">
-                                <h4 class="h4-note two">製造業P社（山梨県）工場長K様</h4>
+                                <h4 class="h4-note two">製造業<span class="span-es">P</span>社（山梨県）工場長K様</h4>
                                 <p class="p-note">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                             </li>
                         </ul>
@@ -151,7 +151,7 @@
                     <div class="img-pc">
                         <picture>
                             <source media="(min-width: 768px)" srcset="{{asset('images/top/top_img_05_pc.png')}} 2x">
-                            <img class="sizes" src="{{asset('images/top/top_img_05_pc.png')}}" alt="">
+                            <img class="sizes" src="{{asset('images/top/top_img_05_pc.png')}}" alt="笑顔の社員">
                         </picture> 
                      </div>
 
@@ -169,7 +169,7 @@
 
 
 
-    {{-- <script type="text/javascript" src="./js/top.js"></script>  --}}
+    <script type="text/javascript" src="./js/top.js"></script> 
 
           
         </main>

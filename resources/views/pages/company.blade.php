@@ -41,7 +41,7 @@
                             <picture>
                                 <source media="(max-width: 767px)" srcset="{{asset('images/company/company_mission_sp.jpg')}}">
                                 <source media="(min-width: 768px)" srcset="{{asset('images/company/company_mission_pc.jpg')}}">
-                                <img class="sizes" src="{{asset('images/company/company_mission_pc.jpg')}}" alt="">
+                                <img class="sizes" src="{{asset('images/company/company_mission_pc.jpg')}}" alt="笑顔で語り合う社員">
                             </picture>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 <picture>
                                     <source media="(max-width: 767px)" srcset="{{asset('images/company/company_message_sp.jpg')}}">
                                     <source media="(min-width: 768px)" srcset="{{asset('images/company/company_message_pc.jpg')}}">
-                                    <img class="sizes" src="{{asset('images/company/company_message_pc.jpg')}}" alt="">
+                                    <img class="sizes" src="{{asset('images/company/company_message_pc.jpg')}}" alt="代表の写真">
                                 </picture>
                             </div>
                             <div class="sign">
@@ -152,7 +152,7 @@
                                     </div>
                                     <div class="item-content">
                                         <h4 class="item-title">最短でつなぐ</h4>
-                                        <p class="item-text">Connecting shortest</p>
+                                        <p class="item-text">Connecting shortest.</p>
                                     </div>
                                 </div>
                                 <div class="item">
@@ -257,7 +257,9 @@
                                     〒407-0175 &nbsp;山梨県韮崎市穂坂町宮久保1155-1<br />
                                     TEL：0120-228-272
                                 </p>
-                                <div class="box">Google map</div>
+                                <div class="box">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d286.30827578760693!2d138.46405788382683!3d35.721093567470334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c0be95d2beacf%3A0x106336215e360321!2sMiyakubo-1155-1%20Hosakamachi%2C%20Nirasaki%2C%20Yamanashi%20407-0175!5e0!3m2!1svi!2sjp!4v1746152444294!5m2!1svi!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
                             </div>
                             <div class="group">
                                 <h3 class="title">宮城office</h3>
@@ -265,7 +267,9 @@
                                     〒981-3629 &nbsp;宮城県黒川郡大和町テクノヒルズ2-2<br />
                                     TEL：0120-228-272
                                 </p>
-                                <div class="box">Google map</div>
+                                <div class="box">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.0734436819996!2d140.85440223709833!3d38.3632905563289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f89821c70196daf%3A0x2438af7f46a6e5e4!2z44ix44K144K144KtIOWuruWfjuW3peWgtA!5e0!3m2!1svi!2sjp!4v1746152526759!5m2!1svi!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>

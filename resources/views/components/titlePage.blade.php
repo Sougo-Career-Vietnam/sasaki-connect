@@ -7,7 +7,7 @@ $pageTitles = [
         'en' => 'Company Profile',
     ],
     'service' => [
-        'jp' => 'サービス',
+        'jp' => 'サービス紹介',
         'en' => 'Service for business',
     ],
     'reason' => [
@@ -26,29 +26,29 @@ $pageTitles = [
 
 $altText = [
     'company' => [
-        'jp' => '会社案内のメインビジュアル',
+        'jp' => '社屋外観',
         'en' => 'Main Visual of Company Profile',
     ],
     'service' => [
-        'jp' => 'サービスのメインビジュアル',
+        'jp' => '男性社員と女性社員',
         'en' => 'Main Visual of Service',
     ],
     'reason' => [
-        'jp' => '選ばれる理由のメインビジュアル',
-        'en' => 'Main Visual of Why Choose Us',
+        'jp' => '笑顔の社員',
+        'en' => 'Main Visual of reason',
     ],
     'flow' => [
-        'jp' => 'ご利用の流れのメインビジュアル',
-        'en' => 'Main Visual of Flow for Business',
+        'jp' => '握手する社員',
+        'en' => 'Main Visual of flow',
     ],
     'faq' => [
-        'jp' => 'よくある質問のメインビジュアル',
-        'en' => 'Main Visual of FAQ for Business',
+        'jp' => 'よくある質問',
+        'en' => 'Main Visual of faq',
     ],
 ];
 
 
-$lang = 'en'; 
+$lang = 'jp'; 
 if (isset($currentLang) && in_array($currentLang, ['jp', 'en'])) {
     $lang = $currentLang; 
 }

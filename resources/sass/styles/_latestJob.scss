@@ -70,7 +70,7 @@
 
   .ja {
     font-size: rem(15);
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 0px;
     margin-right: 10px;
     @include minWidthXs {
@@ -139,8 +139,8 @@
   //border: solid 1px $latestJobMoreButtonBgColor;
   color: white;
   font-family: "futura-pt", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+  font-weight: 500;
+  font-style: 20px;
   letter-spacing: 0.05em;
   line-height: 1.5;
   text-align: center;

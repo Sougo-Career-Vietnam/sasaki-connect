@@ -53,7 +53,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/reasons/reasons_benefits_01_sp.jpg')}}">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/reasons/reasons_benefits_01_pc.jpg')}}">
-                                            <img class="sizes" src="{{asset('images/reasons/reasons_benefits_01_pc.jpg')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/reasons/reasons_benefits_01_pc.jpg')}}" alt="社屋外観">
                                         </picture>
                                     </div>
                                     <p class="text">
@@ -73,7 +73,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/reasons/reasons_benefits_02_sp.jpg')}}">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/reasons/reasons_benefits_02_pc.jpg')}}">
-                                            <img class="sizes" src="{{asset('images/reasons/reasons_benefits_02_pc.jpg')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/reasons/reasons_benefits_02_pc.jpg')}}" alt="作業の様子">
                                         </picture>
                                     </div>
                                     <p class="text">
@@ -92,7 +92,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/reasons/reasons_benefits_03_sp.jpg')}}">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/reasons/reasons_benefits_03_pc.jpg')}}">
-                                            <img class="sizes" src="{{asset('images/reasons/reasons_benefits_03_pc.jpg')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/reasons/reasons_benefits_03_pc.jpg')}}" alt="男性社員">
                                         </picture>
                                     </div>
                                     <p class="text">
@@ -129,11 +129,11 @@
                             </h2>
                             <div class="list">
                                 <div class="box">
-                                    <h3 class="box-title">製造業TE社（長野県）採用担当T様</h3>
+                                    <h3 class="box-title">製造業<span class="span-es">TE</span>社（長野県）採用担当T様</h3>
                                     <p class="text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                                 </div>
                                 <div class="box">
-                                    <h3 class="box-title">製造業P社（山梨県）工場長K様</h3>
+                                    <h3 class="box-title">製造業<span class="span-es">P</span>社（山梨県）工場長K様</h3>
                                     <p class="text">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
                                 </div>
                             </div>

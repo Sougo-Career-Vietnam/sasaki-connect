@@ -414,7 +414,7 @@ body {
     margin-bottom: 5px;
 }
 
-#company #sc-offices .group .box {
+/* #company #sc-offices .group .box {
     border-radius: 5px;
     background-color: #C4C4C4;
     display: flex;
@@ -425,7 +425,7 @@ body {
     font-weight: 700;
     color: #000;
     padding: 21px 26px;
-}
+} */
 
 
 
@@ -725,14 +725,14 @@ screen and (min-width: 768px) {
         margin-bottom: 30px;
     }
 
-    #company #sc-offices .group .box {
+    /* #company #sc-offices .group .box {
         border-radius: 0;
         min-height: 340px;
         font-size: 24px;
         padding: 21px 26px;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
 }
 

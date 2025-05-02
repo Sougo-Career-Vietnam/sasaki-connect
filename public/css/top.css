@@ -133,7 +133,7 @@ body {
 
 #top .text-place .dl-place .dd-place {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
   letter-spacing: 0px;
   margin-bottom: 30px;
@@ -570,7 +570,7 @@ body {
   font-size: 18px;
   line-height: 32px;
   color: #2C4198;
-  font-weight: 400;
+  font-weight: 500;
   max-width: 660px;
   margin-bottom: 40px;
 }
@@ -598,6 +598,15 @@ body {
   display: block;
 }
 
+
+
+#top .span-es {
+  font-size: 29px;
+  position: relative;
+  top: 2px
+}
+
+
 @media (max-width: 1400px) {
 
   #top .block-info .img-pc {
@@ -610,6 +619,11 @@ body {
 }
 
 @media (max-width: 767px) {
+  #top .span-es {
+    font-size: 19px;
+    position: relative;
+    top: 2px
+  }
   #main_wrap .sp-br {
     display: block;
   }
@@ -1028,7 +1042,7 @@ body {
   #top .block-info .text-info {
     font-size: 13px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 500;
     max-width: 660px;
     margin-bottom: 0px;
     padding: 0px 12px;
@@ -1316,7 +1330,21 @@ body {
   max-width: 628px;
 }
 
+#top .img-icon.animate {
+  animation: drawLines 2s forwards;
+  clip-path: inset(0 100% 0 0);
+}
 
+
+@keyframes drawLines {
+  from {
+      clip-path: inset(100% 0 0 0);
+  }
+
+  to {
+      clip-path: inset(0 0 0 0);
+  }
+}
 
 @media (max-width: 1500px) { 
   #contactFooter .icon-info {
@@ -1887,6 +1915,24 @@ body {
   max-width: 940px;
   margin: auto;
   margin-bottom: -80px;
+ 
+}
+
+
+#faq  .img-icon.animate {
+  animation: drawLines 2s forwards;
+  clip-path: inset(0 100% 0 0);
+}
+
+
+@keyframes drawLines {
+  from {
+      clip-path: inset(100% 0 0 0);
+  }
+
+  to {
+      clip-path: inset(0 0 0 0);
+  }
 }
 
 
