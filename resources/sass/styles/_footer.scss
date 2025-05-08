@@ -110,17 +110,17 @@ footer
       z-index: -2;
     }
 
-    @include minWidthXs {
-      &:hover {
-        background: #FDEAE9;
-        i,span {
-          color: #E73128;
-        }
-        //&::before {
-        //  opacity: .5;
-        //}
+    
+    &:hover {
+      background: #FDEAE9;
+      i,span {
+        color: #E73128;
       }
+      //&::before {
+      //  opacity: .5;
+      //}
     }
+  
   }
 
   #searchJobsBtn {

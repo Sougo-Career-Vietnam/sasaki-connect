@@ -64,7 +64,13 @@
                                 SASAKI CONNECTでは人材に対するお困りに対し、企業様それぞれの背景を詳しく伺いまして、「人材派遣」「人材紹介」「製造請負」「採用コンサルティング」の４つの面からアプローチいたします。特に中長期的な人材育成面を鑑みて、人材紹介は私たちSASAKI CONNECTが最も得意とするところです。
                             </p>
                         </div>
-                        <div class="coming-soon">制作中</div>
+                        <div class="coming-soon">
+                            <picture>
+                                <source media="(max-width: 767px)" srcset="{{asset('images/service/service_map_sp.png')}} 2x">
+                                <source media="(min-width: 768px)" srcset="{{asset('images/service/service_map_pc.png')}} 2x">
+                                <img class="sizes" src="{{asset('images/service/service_map_pc.png')}}" alt="社員のイラスト">
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -79,8 +85,9 @@
                         <p class="text">特定の業務のみを<br />委託したい</p>
                         <p class="text">新規採用に不安がある</p>
                         <p class="text">専門職のスキルを<br />持った人材が必要</p>
-                        <p class="text text-fit">生産設備の稼働率を<br />高めたい・扱う人がいない</p>
                         <p class="text">技術者養成の時間と<br />経費がない</p>
+                        <p class="text text-fit">生産設備の稼働率を<br />高めたい・扱う人がいない</p>
+                       
                     </div>
                     <div class="img">
                         <picture>

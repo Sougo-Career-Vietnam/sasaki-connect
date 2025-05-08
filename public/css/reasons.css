@@ -459,4 +459,9 @@ screen and (max-width: 349px) {
     #reasons #sc-benefits .group-title br {
         display: none;
     }
+
+    #reasons #sc-benefits .group-title {
+        font-size: 13px;
+        line-height: 22px;
+    }
 }

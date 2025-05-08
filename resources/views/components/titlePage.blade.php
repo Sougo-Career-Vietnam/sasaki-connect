@@ -38,7 +38,7 @@ $altText = [
         'en' => 'Main Visual of reason',
     ],
     'flow' => [
-        'jp' => '握手する社員',
+        'jp' => 'フロー紹介',
         'en' => 'Main Visual of flow',
     ],
     'faq' => [

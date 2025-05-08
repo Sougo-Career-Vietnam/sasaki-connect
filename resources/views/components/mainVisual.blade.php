@@ -20,22 +20,21 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 
 <style>
 
-.swiper-wrapper {
+#mvSlider .swiper-wrapper {
     position: relative;
     z-index: 100;
 }
 
-.img-bg {
+#mvSlider .img-bg {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 5;
-
 }
 
-.swiper-wrapper .img-icon02 {
+#mvSlider .swiper-wrapper .img-icon02 {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -58,7 +57,7 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
     }
 }
 
-.swiper-wrapper .img-icon01 {
+#mvSlider .swiper-wrapper .img-icon01 {
     width: 52.5%;
     position: absolute;
     top: -11.5%;
@@ -67,7 +66,7 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
     clip-path: circle(0% at 50% 50%);
     animation: drawCircle2 4s ease-out forwards;
 }
-.swiper-wrapper .img-icon01 img {
+#mvSlider .swiper-wrapper .img-icon01 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -87,7 +86,7 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 } 
 
 
-.box-circle {
+#mvSlider .box-circle {
     width: clamp(300px, 30vw, 540px);
     height: clamp(300px, 30vw, 540px);
     background: rgba(235, 240, 249, 0.1);
@@ -119,7 +118,7 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
       }
 }
 
-.swiper-slide {
+#mvSlider .swiper-slide {
     z-index: 2;
 }
 
@@ -127,10 +126,10 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 
 @media print,
 screen and (max-width: 786px) {
-    .swiper-wrapper .img-icon01,.box-circle {
+    #mvSlider .swiper-wrapper .img-icon01,#mvSlider .box-circle {
         display: none
     }
-    .swiper-wrapper .img-icon02,.img-bg {
+    #mvSlider .swiper-wrapper .img-icon02,#mvSlider .img-bg {
         display: none
     }
 }

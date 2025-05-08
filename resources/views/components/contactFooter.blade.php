@@ -36,7 +36,7 @@
         <picture>
             <source media="(max-width: 767px)" srcset="{{asset('images/mvSlider/page_footer_sp.png')}}">
             <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/page_footer_pc.png')}}">
-            <img class="sizes" src="{{asset('images/mvSlider/page_footer_pc.png')}}" alt="握手する社員">
+            <img class="sizes" src="{{asset('images/mvSlider/page_footer_pc.png')}}" alt="採用担当者">
         </picture>  
      </div>
 

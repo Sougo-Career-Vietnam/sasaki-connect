@@ -48,7 +48,7 @@
                                 <dt class="dt-conncet">サービス紹介<span class="es-dt">SERVICE</span></dt>
                                 <dd class="dd-conncet">人材不足の「困った」を当社４つのソリューションをベースにさまざまな角度からアプローチ。<br class="sp-br">特に半導体製造、航空・宇宙・防衛関連、医療機器製造の各業種を得意としております。</dd>
                                  <dd class="flex-mobi">
-                                    <a class="link-top two" href="">サービス紹介ページへ</a>
+                                    <a class="link-top two" href="{{Route('top')}}/service">サービス紹介ページへ</a>
                                  </dd>
                                 
                             </dl>
@@ -65,7 +65,7 @@
                                 <dt class="dt-conncet">選ばれる理由<span class="es-dt">REASON</span></dt>
                                 <dd class="dd-conncet">当社はすでに大手企業から地場企業まで製造業の企業様にご愛顧いただいております。<br>お客様、スタッフ様、そして当社の三方がWin-Winになる「三方良しの好循環」が私たちの強み・選ばれる理由です。</dd>
                                 <dd class="flex-mobi">
-                                  <a class="link-top two" href="">選ばれる理由ページへ</a>
+                                  <a class="link-top two" href="{{Route('top')}}/reason">選ばれる理由ページへ</a>
                                 </dd>
                             </dl>
                             <div class="box-img">
@@ -82,7 +82,7 @@
                                 <dt class="dt-conncet">ご利用の流れ<span class="es-dt">FLOW</span></dt>
                                 <dd class="dd-conncet">「人材不足で困っている」「初めて問い合わせたい」という方に、当社サービスをご利用いただくまでの流れを記しました。<br class="pc-br">お気軽にお問い合わせください。</dd>
                                 <dd class="flex-mobi">
-                                   <a class="link-top two" href="">ご利用の流れページへ</a>
+                                   <a class="link-top two" href="{{Route('top')}}/flow">ご利用の流れページへ</a>
                                 </dd>
                             </dl>
                             <div class="box-img">
@@ -115,13 +115,13 @@
                     <div class="item-link one">
                         <p class="title-link">よくある質問<span class="es-link">FAQ</span></p>
                         <dd class="flex-mobi">
-                        <a class="link-top three" href="">お問い合わせの前に</a>
+                        <a class="link-top three" href="{{Route('top')}}/faq">お問い合わせの前に</a>
                         </dd>
                     </div>
                     <div class="item-link">
                         <p class="title-link">会社案内<span class="es-link">COMPANY PROFILE</span></p>
                         <dd class="flex-mobi">
-                        <a class="link-top three add" href="">SASAKI CONNECTのご案内</a>
+                        <a class="link-top three add" href="{{Route('top')}}/company">SASAKI CONNECTのご案内</a>
                         </dd>
                     </div>
 

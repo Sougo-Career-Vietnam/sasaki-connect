@@ -237,7 +237,6 @@ body {
 }
 
 #service #sc-solutions .coming-soon {
-    background-color: #D9D9D9;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -927,6 +926,14 @@ screen and (min-width: 768px) {
     #service #sc-problems .list .text.text-fit {
         width: calc((100% / 4) - 23px);
     }
+    #service #sc-problems .list .text:nth-child(6) {
+        order: 7;
+    }
+    #service #sc-problems .list .text:nth-child(7) {
+        order: 6;
+    }
+
+
 
     #service #sc-problems .list .text::before {
         width: 23px;

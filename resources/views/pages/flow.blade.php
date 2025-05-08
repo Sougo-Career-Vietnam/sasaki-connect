@@ -131,7 +131,7 @@
                                         <picture>
                                             <source media="(max-width: 767px)" srcset="{{asset('images/flow/flow_pic_07_sp.png')}} 2x">
                                             <source media="(min-width: 768px)" srcset="{{asset('images/flow/flow_pic_07_pc.png')}} 2x">
-                                            <img class="sizes" src="{{asset('images/flow/flow_pic_07_pc.png')}}" alt="">
+                                            <img class="sizes" src="{{asset('images/flow/flow_pic_07_pc.png')}}" alt="握手する社員">
                                         </picture> 
                                     </p>
                                     <dl class="dl-info">

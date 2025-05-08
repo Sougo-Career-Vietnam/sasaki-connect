@@ -79,6 +79,14 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
 /* ----block-place----*/
 #top .text-place {
   display: flex;
@@ -1351,8 +1359,14 @@ body {
     right: 5%;
     width: 45%;
   }
+  #contactFooter .contact-text img {
+    width: 650px;
+  }
+  #contactFooter .contact-text {
+    bottom: 5px;
+  }
 }
-@media (max-width: 786px) { 
+@media (max-width: 767px) { 
   #contactFooter .info-contact {
     height: 425px;
     padding: 25px 15px 0px 13px;
@@ -1404,6 +1418,11 @@ body {
   #contactFooter .img-info {
     margin-top: -157px;
   }
+  #contactFooter .img-info  img {
+    width: 100%;
+  }
+
+
   #contactFooter .icon-info {
     right: -5%;
     width: 53%;
@@ -1559,7 +1578,7 @@ body {
   font-weight: 700;
 }
 
-@media (max-width: 786px) {  
+@media (max-width: 767px) {  
   #flow .title-flow {
     padding: 30px 0px 45px;
     font-size: 18px;
@@ -1937,7 +1956,7 @@ body {
 
 
 
-@media (max-width: 786px) {   
+@media (max-width: 767px) {   
 
   #faq .number-info {
     font-size: 19px;
