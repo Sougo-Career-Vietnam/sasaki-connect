@@ -57,11 +57,11 @@
                 <div class="inner">
                     <div class="solutions-inner">
                         <div class="content">
-                            <h3 class="block-title">当社４つのソリューション</h3>
+                            <h3 class="block-title">当社4つのソリューション</h3>
                             <p class="text-bold">人材不足の「困った」を<br />さまざまな角度からアプローチします</p>
                             <p class="text">
                                 私たちは「人が現場を強くして、経営も強くする」というコンセプトを掲げております。<br />
-                                SASAKI CONNECTでは人材に対するお困りに対し、企業様それぞれの背景を詳しく伺いまして、「人材派遣」「人材紹介」「製造請負」「採用コンサルティング」の４つの面からアプローチいたします。特に中長期的な人材育成面を鑑みて、人材紹介は私たちSASAKI CONNECTが最も得意とするところです。
+                                SASAKI CONNECTでは人材に対するお困りに対し、企業様それぞれの背景を詳しく伺いまして、「人材派遣」「人材紹介」「製造請負」「採用コンサルティング」の4つの面からアプローチいたします。特に中長期的な人材育成面を鑑みて、人材紹介は私たちSASAKI CONNECTが最も得意とするところです。
                             </p>
                         </div>
                         <div class="coming-soon">
@@ -109,7 +109,7 @@
                         <li class="text">採用力や人材育成、請負までお客様の製造現場に合わせたご提案をいたします</li>
                         <li class="text">お客様の課題に対して親身になって伺い、柔軟に考えてご提案いたします</li>
                     </ul>
-                    <a href="#" class="link">選ばれる理由ページへ</a>
+                    <a href="{{Route('top')}}/reason" class="link">選ばれる理由ページへ</a>
                 </div>
             </section>
 
@@ -242,7 +242,7 @@
                             <dd class="text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</dd>
                         </dl>
                     </div>
-                    <a href="#" class="link">お問い合わせ・ご相談はこちら</a>
+                    <a href="{{Route('top')}}/contact" class="link">お問い合わせ・ご相談はこちら</a>
                 </div>
             </section>
 
@@ -304,7 +304,7 @@
                                 <img class="sizes" src="{{asset('images/service/service_recruit_pc.jpg')}}" alt="笑顔の男性社員と女性社員">
                             </picture>
                         </div>
-                        <a href="#" class="link">詳しくはこちら</a>
+                        <a href="{{Route('top')}}/recruit" class="link">詳しくはこちら</a>
                     </div>
                 </div>
             </section>

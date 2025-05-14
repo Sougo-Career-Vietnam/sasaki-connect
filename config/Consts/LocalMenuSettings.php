@@ -30,7 +30,7 @@ class LocalMenuSettings
             "target" => "",
         ],
         [
-            "text" => "よくある質問",
+            "text" => "ご利用の流れ",
             "url" => "/faq",
             "class" => "item-menu",
             "target" => "",
@@ -51,7 +51,7 @@ class LocalMenuSettings
         ],
         [
             "text" => "お問い合わせ",
-            "url" => "/recruit/form",
+            "url" => "/recruit/contact",
             "class" => "contact",
             "target" => "",
         ],
@@ -96,14 +96,14 @@ class LocalMenuSettings
             "target" => "",
         ],
         [
-            "text" => "よくある質問",
+            "text" => "ご利用の流れ",
             "url" => "/faq",
             "class" => "item-menu",
             "target" => "",
         ],
         [
             "text" => "お問い合わせ",
-            "url" => "/recruit/form",
+            "url" => "/recruit/contact",
             
             "class" => "item-menu",
             "target" => "",

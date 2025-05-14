@@ -168,7 +168,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   display: block;
-  margin-top: 60px;
+  margin-top: clamp(40px, 3vw, 60px);
 }
 
 #top .link-top::after {
@@ -202,8 +202,14 @@ body {
 #top .img-icon {
   max-width: 940px;
   margin: auto;
-  margin-top: -90px;
+  /* margin-top: -90px; */
+  margin-top: clamp(-90px, calc(-57px - (30 * ((100vw - 1200px) / 720))), -55px);
+
+
+
 }
+
+
 
 /* ----block-main-----*/
 #top .block-main {
@@ -622,6 +628,11 @@ body {
     right: 1%;
     top: 6%;
     width: 40%;
+  }
+  #top .text-place .dl-place .dd-place {
+    font-size: 14px;
+    line-height: 24px;
+
   }
 
 }

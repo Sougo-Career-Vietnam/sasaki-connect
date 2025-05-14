@@ -894,6 +894,7 @@ screen and (min-width: 768px) {
         border-radius: 0;
         font-size: 40px;
         min-height: 368px;
+        padding-top: 35px;
     }
 
     /* service */

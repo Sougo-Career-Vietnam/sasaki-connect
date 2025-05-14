@@ -126,15 +126,31 @@ $mvCatchCopy = '';//メインビジュアルのキャッチコピーを「''」�
 
 @media print,
 screen and (max-width: 786px) {
-    #mvSlider .swiper-wrapper .img-icon01,#mvSlider .box-circle {
-        display: none
+    #mvSlider .swiper-wrapper .img-icon01 {
+        width: 66.67%;
+        position: absolute;
+        top: 43.5%;
+        right: 5.1%;
     }
-    #mvSlider .swiper-wrapper .img-icon02,#mvSlider .img-bg {
-        display: none
+
+    #mvSlider .box-circle {
+        width:150px;
+        height: 150px;
+        top: 3%;
+        left: 3%;
     }
 }
 
 
+@media print,
+screen and (max-width: 374px) {
+    #mvSlider .box-circle {
+        width:130px;
+        height: 130px;
+        top: 3%;
+        left: 3%;
+    }
+}
 </style>
 
 <div id="mvSlider">
@@ -168,6 +184,7 @@ screen and (max-width: 786px) {
                               <p class="img-icon01">
                                 <picture>
                                     <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}">
+                                        <source media="(max-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01a_sp.png')}}">   
                                     <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01a_pc.png')}}" alt="">
                                 </picture>
                               </p>
@@ -185,6 +202,7 @@ screen and (max-width: 786px) {
                         <p class="img-bg">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/bg_main_pc.png')}}">
+                                <source media="(max-width: 768px)" srcset="{{asset('images/mvSlider/bg_main_sp.png')}}">  
                                 <img class="mvPicture" src="{{asset('images/mvSlider/bg_main_pc.png')}}" alt="">
                             </picture>
                         </p>
@@ -196,6 +214,7 @@ screen and (max-width: 786px) {
                         <p class="img-icon02">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01b_pc.png')}}">
+                                    <source media="(max-width: 768px)" srcset="{{asset('images/mvSlider/top_img_main_01b_sp.png')}}">  
                                 <img class="mvPicture" src="{{asset('images/mvSlider/top_img_main_01b_pc.png')}}" alt="">
                             </picture>
                         </p>

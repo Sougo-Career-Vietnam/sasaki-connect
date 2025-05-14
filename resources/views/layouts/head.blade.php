@@ -1,7 +1,32 @@
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{$page->title}}</title>
+    {{-- <title>{{$page->title}}</title> --}}
+    @php
+    $pageTitles = [
+        'recruit' => '採用情報',
+        'reason' => '選ばれる理由',
+        'company' => '会社概要',
+        'service' => 'サービス紹介',
+        'flow' => 'ご利用の流れ',
+        'faq' => 'よくある質問',
+        'contact' => 'お問い合わせ',
+    ];
+
+    $routeName = Route::currentRouteName();
+
+    if ($routeName === 'home') {
+        $pageTitle = '株式会社SASAKI CONNECT';
+    } else {
+        $pageTitle = $pageTitles[$routeName] ?? ($page->title ?? '株式会社SASAKI CONNECT 採用サイト');
+        $pageTitle .= '｜株式会社SASAKI CONNECT';
+    }
+    @endphp
+
+    <title>{{ $pageTitle }}</title>
+
+
+
     <meta name="keywords" content="{{$page->keywords}}">
     <meta name="description" content="{{$page->description}}">
     <meta name="format-detection" content="telephone=no">

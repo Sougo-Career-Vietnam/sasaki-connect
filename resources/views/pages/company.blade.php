@@ -34,7 +34,7 @@
                                 私たちのミッション
                             </h2>
                             <h3 class="title">技術者とものづくり企業を繋ぎ、<br />日本の製造業のさらなる発展に貢献する</h3>
-                            <p class="text">これまで我が国ではものづくりの製造業が日本の基幹産業として発展してきました。その基礎は「人」と「技術」、逆にこの２つのどちらかを失っても発展はありえません。</p>
+                            <p class="text">これまで我が国ではものづくりの製造業が日本の基幹産業として発展してきました。その基礎は「人」と「技術」、逆にこの2つのどちらかを失っても発展はありえません。</p>
                             <p class="text">私たちSASAKI CONNECTは「人」「技術の現場」をつなぐことによって、お客様の現場における生産向上や経営の成長をサポートし、ひいては日本の製造業の発展に貢献してまいります。</p>
                         </div>
                         <div class="img">
@@ -55,7 +55,7 @@
                             <div class="item">
                                 <div class="tag">私たちのSolution</div>
                                 <h4 class="item-title">ものづくり企業に救いの一手を</h4>
-                                <p class="item-text">私たちは、お客様の人手不足による「困った」を人材派遣・人材紹介・製造請負・採用コンサルティング４つのコンセプトカテゴリーで解決いたします。</p>
+                                <p class="item-text">私たちは、お客様の人手不足による「困った」を人材派遣・人材紹介・製造請負・採用コンサルティング4つのコンセプトカテゴリーで解決いたします。</p>
                             </div>
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                                     TEL：0120-228-272
                                 </p>
                                 <div class="box">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d286.30827578760693!2d138.46405788382683!3d35.721093567470334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c0be95d2beacf%3A0x106336215e360321!2sMiyakubo-1155-1%20Hosakamachi%2C%20Nirasaki%2C%20Yamanashi%20407-0175!5e0!3m2!1svi!2sjp!4v1746152444294!5m2!1svi!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.20794783367!2d138.46178957645958!3d35.721104027781465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c0be95d2beacf%3A0x106336215e360321!2z44CSNDA3LTAxNzUg5bGx5qKo55yM6Z-u5bSO5biC56mC5Z2C55S65a6u5LmF5L-d77yR77yR77yV77yV4oiS77yR!5e0!3m2!1sja!2sjp!4v1747212618212!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                             <div class="group">
@@ -268,7 +268,7 @@
                                     TEL：0120-228-272
                                 </p>
                                 <div class="box">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.0734436819996!2d140.85440223709833!3d38.3632905563289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f89821c70196daf%3A0x2438af7f46a6e5e4!2z44ix44K144K144KtIOWuruWfjuW3peWgtA!5e0!3m2!1svi!2sjp!4v1746152526759!5m2!1svi!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.3895118897185!2d140.8523113765448!3d38.363109778051445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8981f47a929c01%3A0x3f86207fca2dd673!2z44CSOTgxLTM2Mjkg5a6u5Z-O55yM6buS5bed6YOh5aSn5ZKM55S644OG44Kv44OO44OS44Or44K677yS4oiS77yS!5e0!3m2!1sja!2sjp!4v1747212656117!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
