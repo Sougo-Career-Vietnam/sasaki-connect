@@ -150,7 +150,7 @@
                                     <picture>
                                         <source media="(max-width: 767px)" srcset="{{asset('images/flow/flow_img_sp.png')}} 2x">
                                         <source media="(min-width: 768px)" srcset="{{asset('images/flow/flow_img_pc.png')}} 2x">
-                                        <img class="sizes" src="{{asset('images/flow/flow_img_pc.png')}}" alt="">
+                                        <img class="sizes" src="{{asset('images/flow/flow_img_pc.png')}}" alt="採用担当者">
                                     </picture> 
                                 </p>
                                  <p class="text-note">1〜7の通り、お問い合わせから就業開始まで <br class="pc-br">丁寧に<br class="sp-br">サポートいたします。ぜひお気軽にご相談ください。</p>

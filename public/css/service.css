@@ -234,6 +234,7 @@ body {
 #service #sc-solutions .content .text {
     font-size: 13px;
     line-height: 23.5px;
+    text-align: justify;
 }
 
 #service #sc-solutions .coming-soon {
@@ -554,6 +555,7 @@ body {
 #service #sc-contact .text {
     font-size: 13px;
     line-height: 24px;
+    text-align: justify;
 }
 
 #service #sc-contact .link {
@@ -618,6 +620,7 @@ body {
 #service #sc-seekers .content .text {
     font-size: 13px;
     line-height: 23.5px;
+    text-align: justify;
 }
 
 #service #sc-seekers .img {
@@ -1294,12 +1297,15 @@ screen and (min-width: 768px) {
 }
 
 @media print,
-screen and (max-width: 361px) {
+screen and (max-width: 374px) {
 
     /* endpoint */
     #service #sc-endpoint .endpoint-inner {
-        flex-direction: column;
+        flex-direction: row;
         row-gap: 20px;
+    }
+    #service #sc-endpoint .inner {
+        padding: 0px 5px;
     }
 
     /* problems */
@@ -1333,6 +1339,9 @@ screen and (max-width: 361px) {
     }
     #service #sc-problems .title {
         font-size: 14px;
+    }
+    #service #sc-endpoint .link {
+        font-size: 10px;
     }
 }
 

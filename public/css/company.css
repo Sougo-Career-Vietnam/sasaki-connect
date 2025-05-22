@@ -432,6 +432,9 @@ body {
     border: 0;
 }
 
+
+
+
 @media print,
 screen and (min-width: 768px) {
 
@@ -444,13 +447,10 @@ screen and (min-width: 768px) {
     }
 
     /* title */
-    #company .section-title {
-        font-size: 54px;
-        line-height: 74px;
-        margin-bottom: 30px;
-        column-gap: 20px;
-    }
 
+    #company .section-title {
+        font-size: 40px;
+    }
     #company .section-title img {
         max-width: 92px;
         top: 19px;
@@ -501,10 +501,6 @@ screen and (min-width: 768px) {
         margin-bottom: 101px;
     }
 
-    #company #sc-mission .section-title {
-        margin-top: -16px;
-        margin-bottom: 67px;
-    }
 
     #company #sc-mission .content .title {
         font-size: 30px;
@@ -512,9 +508,19 @@ screen and (min-width: 768px) {
         line-height: 42px;
     }
 
+    #company #sc-mission .section-title {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        font-size: 40px;
+    }
+    #company #sc-mission .content .title {
+        font-size: 26px;
+        margin-bottom: 16px;
+        line-height: 34px;
+    }
     #company #sc-mission .content .text {
-        font-size: 18px;
-        line-height: 32px;
+        font-size: 16px;
+        line-height: 28px;
     }
 
     #company #sc-mission .content .text+.text {
@@ -610,8 +616,8 @@ screen and (min-width: 768px) {
     }
 
     #company #sc-thoughts .title {
-        font-size: 30px;
-        line-height: 47px;
+        font-size: 26px;
+        line-height: 40px;
     }
 
     #company #sc-thoughts .text {
@@ -727,17 +733,50 @@ screen and (min-width: 768px) {
         line-height: 32px;
         margin-bottom: 30px;
     }
+    #company .section-title img {
+        top: 3px;
+        left: 0px;
+    }
 
-    /* #company #sc-offices .group .box {
-        border-radius: 0;
-        min-height: 340px;
-        font-size: 24px;
-        padding: 21px 26px;
-        align-items: center;
-        justify-content: center;
-    } */
 
 }
+
+@media print,
+screen and (min-width: 1650px) {
+    #company .section-title {
+        font-size: 54px;
+    }
+    #company #sc-mission  .section-title img {
+        max-width: 92px;
+        top: 19px;
+        left: 0px;
+    }
+    #company #sc-mission .section-title {
+        font-size: 54px;
+        line-height: 74px;
+        margin-bottom: 30px;
+        column-gap: 20px;
+        margin-top: -16px;
+    }
+    #company #sc-mission .content .title {
+        font-size: 30px;
+        margin-bottom: 53px;
+        line-height: 42px;
+    }
+    #company #sc-mission .content .text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #company #sc-thoughts .title {
+        font-size: 30px;
+        line-height: 47px;
+    }
+}
+
+
+
+
 
 @media print,
 screen and (max-width: 349px) {

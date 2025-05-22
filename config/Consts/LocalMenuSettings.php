@@ -24,13 +24,13 @@ class LocalMenuSettings
             "target" => "",
         ],
         [
-            "text" => "ご依頼の流れ",
+            "text" => "ご利用の流れ",
             "url" => "/flow",
             "class" => "item-menu",
             "target" => "",
         ],
         [
-            "text" => "ご利用の流れ",
+            "text" => "よくある質問",
             "url" => "/faq",
             "class" => "item-menu",
             "target" => "",
@@ -44,7 +44,7 @@ class LocalMenuSettings
             "target" => "",
         ],
         [
-            "text" => "お仕事を\nお探しの方へ",
+            "text" => "お仕事を<br>お探しの方へ",
             "url" => "/recruit",
             "class" => "search",
             "target" => "",
@@ -90,13 +90,13 @@ class LocalMenuSettings
             "target" => "",
         ],
         [
-            "text" => "ご依頼の流れ",
+            "text" => "ご利用の流れ",
             "url" => "/flow",
             "class" => "item-menu",
             "target" => "",
         ],
         [
-            "text" => "ご利用の流れ",
+            "text" => "よくある質問",
             "url" => "/faq",
             "class" => "item-menu",
             "target" => "",

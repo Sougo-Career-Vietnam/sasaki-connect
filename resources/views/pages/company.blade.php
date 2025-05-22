@@ -237,7 +237,7 @@
                             </dl>
                             <dl class="line">
                                 <dt class="title">設立年月日</dt>
-                                <dd class="text">2024年年2月</dd>
+                                <dd class="text">2024年2月</dd>
                             </dl>
                         </div>
                     </div>

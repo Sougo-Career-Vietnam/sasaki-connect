@@ -6,7 +6,7 @@
     $pageTitles = [
         'recruit' => '採用情報',
         'reason' => '選ばれる理由',
-        'company' => '会社概要',
+        'company' => '会社案内',
         'service' => 'サービス紹介',
         'flow' => 'ご利用の流れ',
         'faq' => 'よくある質問',

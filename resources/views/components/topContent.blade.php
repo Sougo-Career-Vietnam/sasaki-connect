@@ -17,7 +17,7 @@
                             製造業の発展には「人」と「技術」が不可欠です。<br>SASAKI CONNECTは、人と技術の二つをつなぐことで現場の生産性向上と企業の経営成長を支援し、ものづくりを支えてまいります。</dd>
                         <dd class="dd-place">ロゴに込めた「つながり」と「クレシェンド（成長）」の想いのもと、企業と人材が互いに成長していくための人材サービスを提供いたします。</dd>
                         <dd class="dd-link">
-                            <a class="link-top" href="{{Route('top')}}/recruit">私たちのミッション・ロゴマークに込めた想いへ</a>
+                            <a class="link-top" href="{{Route('top')}}/company#sc-mission">私たちのミッション・ロゴマークに込めた想いへ</a>
                         </dd>
                     </dl>
                 </div>
@@ -63,7 +63,7 @@
                          <li class="item-conncet flex">
                             <dl class="dl-conncet">
                                 <dt class="dt-conncet">選ばれる理由<span class="es-dt">REASON</span></dt>
-                                <dd class="dd-conncet">当社はすでに大手企業から地場企業まで製造業の企業様にご愛顧いただいております。<br>お客様、スタッフ様、そして当社の三方がWin-Winになる「三方良しの好循環」が私たちの強み・選ばれる理由です。</dd>
+                                <dd class="dd-conncet">当社はすでに大手企業から地場企業まで製造業の企業様にご愛顧いただいております。<br>「現場も経営も強くする」ために、お客様と現場で働く方々、そして当社の三方が繋がり合うことによってWin-Winの関係を築いてまいります。</dd>
                                 <dd class="flex-mobi">
                                   <a class="link-top two" href="{{Route('top')}}/reason">選ばれる理由ページへ</a>
                                 </dd>

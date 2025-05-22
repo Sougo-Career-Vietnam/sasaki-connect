@@ -4,6 +4,19 @@
 
 @section('content')
 
+
+<style>
+
+
+
+
+
+
+
+
+</style>
+
+
     <div id="contentArea">
 
         {{--html埋め込み部分 start--}}
@@ -21,7 +34,66 @@
                                 <img class="sizes" src="{{asset('images/reasons/reasons_title.png')}}" alt="">
                                 私たちの強み
                             </h2>
-                            <div class="coming-soon">制作中</div>
+                            <div class="coming-soon">
+                                {{-- <picture>
+                                    <source media="(max-width: 767px)" srcset="{{asset('images/reasons/reasons_banner_page_sp.png')}}">
+                                    <source media="(min-width: 768px)" srcset="{{asset('images/reasons/reasons_banner_page_pc.png')}}">
+                                    <img class="sizes" src="{{asset('images/reasons/reasons_banner_page_pc.png')}}" alt="現場を強くして、経営も強くする">
+                                </picture> --}}
+
+                                <div class="box-connect">
+
+                                       <div class="item-center one">
+                                           <p class="text-01">お客様</p>
+                                           <p class="text-02">生産活動の活発化</p>
+                                       </div>
+                                       <div class="box-text">
+                                            <ul class="list-text">
+                                                <li class="item-text">
+                                                    <p class="item-01">製造現場</p>
+                                                    <p class="item-02">現場強化<br>人材不足の解決</p>
+                                                </li>
+                                                <li class="item-text">
+                                                    <p class="item-01">経営</p>
+                                                    <p class="item-02">生産性・生産力の向上<br>経営改善・経営成長</p>
+                                                </li>
+                                            </ul>
+                                            <p class="text-conncet">Connect Triangle</p>
+                                            <p class="text-conncet-jp">現場を強くして、経営も強くする</p>
+                                       </div>
+
+                                       <ul class="list-connect">
+                                            <div class="item-center two">
+                                                <p class="text-01">SASAKI <br>CONNECT</p>
+                                                <p class="text-02">人と技術をつなぐ</p>
+                                                <picture>
+                                                    <source media="(max-width: 767px)" srcset="{{asset('images/reasons/reasons__icon_page_sp.png')}}">
+                                                    <source media="(min-width: 768px)" srcset="{{asset('images/reasons/reasons__icon_page_pc.png')}}">
+                                                    <img class="sizes" src="{{asset('images/reasons/reasons__icon_page_pc.png')}}" alt="現場を強くして、経営も強くする">
+                                                </picture>
+                                            </div>
+                                            <div class="item-center three">
+                                                <p class="text-01">スタッフ様</p><br>
+                                                <p class="text-02">十分な教育<br>研修体制</p><br>
+                                                <p class="text-03">高い満足度<br>スキルアップ</p>
+                                            </div>
+
+                                       </ul>
+
+                                </div>
+
+                                <div class="box-note">
+                                    <h4 class="title-note">SASAKI CONNECTの強み</h4>
+                                    <ul class="list-note">
+                                        <li class="item-note">自社工場を持つ</li>
+                                        <li class="item-note">製造現場を熟知する</li>
+                                        <li class="item-note">成長事業に強い</li>
+                                        <li class="item-note">強い人材、労働力の提供</li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
                             <p class="text">
                                 私たちは「人が現場を強くして、経営も強くする」というコンセプトを掲げております。<br />
                                 お客様・スタッフ様・私たちの三方それぞれ良い結果になるよう、三方の好循環を作り上げることによって、スタッフ様には高い満足度と十分な還元を果たし、お客様には生産性・生産力が向上して生産活動が活発化し、企業経営を強くすることを目指します。<br />
